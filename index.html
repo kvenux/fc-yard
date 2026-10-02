@@ -6,7 +6,8 @@
 <p>下面是原版 NES 入口：选择本地 .nes 文件。方向键移动，X/Z 射击，Enter 开始。复刻版 AI 使用游戏状态；此入口暂为手动控制。</p>
 <input type="file" id="rom" accept=".nes"><button onclick="nes.buttonDown(1,3);setTimeout(()=>nes.buttonUp(1,3),100)">START</button><br><canvas id="screen" width="256" height="240"></canvas>
 <script src="/node_modules/jsnes/dist/jsnes.min.js"></script><script>
-const ctx=screen.getContext('2d'),im=ctx.createImageData(256,240);let loaded=false;
+const screenCanvas=document.getElementById('screen'),rom=document.getElementById('rom');
+const ctx=screenCanvas.getContext('2d'),im=ctx.createImageData(256,240);let loaded=false;
 const nes=new jsnes.NES({emulateSound:false,onFrame:b=>{for(let i=0;i<b.length;i++){im.data[i*4]=b[i]&255;im.data[i*4+1]=(b[i]>>8)&255;im.data[i*4+2]=(b[i]>>16)&255;im.data[i*4+3]=255;}ctx.putImageData(im,0,0);}});
 rom.onchange=async()=>{try{nes.loadROM(new Uint8Array(await rom.files[0].arrayBuffer()));loaded=true;}catch(e){alert(e.message)}};
 const binds={KeyX:0,KeyZ:1,ShiftRight:2,Enter:3,ArrowUp:4,ArrowDown:5,ArrowLeft:6,ArrowRight:7};
