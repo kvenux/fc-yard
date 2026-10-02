@@ -1,0 +1,404 @@
+{
+  "scope": "adopted_training_path_numeric_samples",
+  "points": [
+    {
+      "frame": 0,
+      "hp": 60,
+      "score": 2499200
+    },
+    {
+      "frame": 600,
+      "hp": 60,
+      "score": 2499400
+    },
+    {
+      "frame": 1200,
+      "hp": 60,
+      "score": 2499800
+    },
+    {
+      "frame": 1800,
+      "hp": 60,
+      "score": 2501800
+    },
+    {
+      "frame": 2400,
+      "hp": 60,
+      "score": 2502900
+    },
+    {
+      "frame": 3000,
+      "hp": 60,
+      "score": 2511300
+    },
+    {
+      "frame": 3600,
+      "hp": 57,
+      "score": 2511700
+    },
+    {
+      "frame": 4200,
+      "hp": 57,
+      "score": 2512900
+    },
+    {
+      "frame": 4800,
+      "hp": 57,
+      "score": 2513800
+    },
+    {
+      "frame": 5400,
+      "hp": 57,
+      "score": 2515000
+    },
+    {
+      "frame": 6000,
+      "hp": 57,
+      "score": 2516100
+    },
+    {
+      "frame": 6526,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6556,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6586,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6616,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6646,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6676,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6706,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6736,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 6739,
+      "hp": 57,
+      "score": 2519100
+    },
+    {
+      "frame": 7339,
+      "hp": 57,
+      "score": 2519600
+    },
+    {
+      "frame": 7939,
+      "hp": 57,
+      "score": 2522300
+    },
+    {
+      "frame": 8358,
+      "hp": 57,
+      "score": 2523500
+    },
+    {
+      "frame": 8958,
+      "hp": 57,
+      "score": 2524000
+    },
+    {
+      "frame": 9558,
+      "hp": 57,
+      "score": 2524500
+    },
+    {
+      "frame": 10158,
+      "hp": 57,
+      "score": 2525500
+    },
+    {
+      "frame": 10758,
+      "hp": 57,
+      "score": 2526500
+    },
+    {
+      "frame": 11358,
+      "hp": 57,
+      "score": 2528100
+    },
+    {
+      "frame": 11958,
+      "hp": 57,
+      "score": 2529600
+    },
+    {
+      "frame": 12558,
+      "hp": 57,
+      "score": 2530700
+    },
+    {
+      "frame": 13158,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13188,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13218,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13248,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13278,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13308,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13338,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13368,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13398,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13428,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13458,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 13486,
+      "hp": 57,
+      "score": 2531700
+    },
+    {
+      "frame": 14086,
+      "hp": 57,
+      "score": 2532200
+    },
+    {
+      "frame": 14686,
+      "hp": 57,
+      "score": 2533800
+    },
+    {
+      "frame": 15286,
+      "hp": 57,
+      "score": 2535300
+    },
+    {
+      "frame": 15886,
+      "hp": 57,
+      "score": 2537300
+    },
+    {
+      "frame": 16367,
+      "hp": 57,
+      "score": 2537800
+    },
+    {
+      "frame": 16967,
+      "hp": 57,
+      "score": 2538600
+    },
+    {
+      "frame": 17567,
+      "hp": 73,
+      "score": 2539200
+    },
+    {
+      "frame": 18167,
+      "hp": 73,
+      "score": 2539800
+    },
+    {
+      "frame": 18767,
+      "hp": 73,
+      "score": 2541200
+    },
+    {
+      "frame": 19367,
+      "hp": 73,
+      "score": 2541400
+    },
+    {
+      "frame": 19967,
+      "hp": 73,
+      "score": 2541600
+    },
+    {
+      "frame": 20567,
+      "hp": 73,
+      "score": 2541600
+    },
+    {
+      "frame": 21167,
+      "hp": 73,
+      "score": 2541600
+    },
+    {
+      "frame": 21767,
+      "hp": 73,
+      "score": 2542100
+    },
+    {
+      "frame": 22367,
+      "hp": 73,
+      "score": 2542100
+    },
+    {
+      "frame": 22967,
+      "hp": 73,
+      "score": 2742600
+    },
+    {
+      "frame": 23567,
+      "hp": 73,
+      "score": 2742700
+    },
+    {
+      "frame": 24167,
+      "hp": 73,
+      "score": 2742700
+    },
+    {
+      "frame": 24767,
+      "hp": 73,
+      "score": 2742800
+    },
+    {
+      "frame": 25367,
+      "hp": 55,
+      "score": 2743300
+    },
+    {
+      "frame": 25967,
+      "hp": 55,
+      "score": 2743800
+    },
+    {
+      "frame": 26567,
+      "hp": 55,
+      "score": 2743900
+    },
+    {
+      "frame": 27167,
+      "hp": 55,
+      "score": 2743900
+    },
+    {
+      "frame": 27767,
+      "hp": 55,
+      "score": 2744000
+    },
+    {
+      "frame": 28367,
+      "hp": 55,
+      "score": 3021500
+    },
+    {
+      "frame": 28555,
+      "hp": 55,
+      "score": 3021500
+    }
+  ],
+  "segments": [
+    {
+      "source": "one-life-bamboo-tempo-021",
+      "offset": 0,
+      "frames": 6496
+    },
+    {
+      "source": "bamboo-exit-recheck-024/diagonal_down_174",
+      "offset": 6496,
+      "frames": 243
+    },
+    {
+      "source": "one-life-next-room-026",
+      "offset": 6739,
+      "frames": 1619
+    },
+    {
+      "source": "one-life-cave-027",
+      "offset": 8358,
+      "frames": 4200
+    },
+    {
+      "source": "one-life-cave-scoped-028",
+      "offset": 12558,
+      "frames": 600
+    },
+    {
+      "source": "cave-door-037/door_865_136",
+      "offset": 13158,
+      "frames": 328
+    },
+    {
+      "source": "one-life-corridor-038",
+      "offset": 13486,
+      "frames": 2881
+    },
+    {
+      "source": "one-life-chapter4-final-040",
+      "offset": 16367,
+      "frames": 5400
+    },
+    {
+      "source": "one-life-chapter4-boss-priority-043",
+      "offset": 21767,
+      "frames": 6788
+    }
+  ],
+  "initial_poweron_prefix_frames": 86890,
+  "cold_verified_policy_frames": 28555,
+  "cold_prefix_audit": {
+    "frames": 100376,
+    "coins": 1,
+    "initial_lives": 2,
+    "deaths": [],
+    "no_life_loss": true,
+    "ram_equal": true
+  },
+  "full_game_clear_verified": false,
+  "no_game_images_read": true
+}

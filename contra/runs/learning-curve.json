@@ -1,0 +1,2444 @@
+{
+  "updatedAt": "2026-10-01T12:28:19.913Z",
+  "preflight": {
+    "romPath": "contra\\roms\\contra.nes",
+    "profilePath": "contra\\observation.json",
+    "ready": true,
+    "trainingStarted": true,
+    "fullGameClearVerified": false,
+    "blockers": [],
+    "status": "completed",
+    "run": "search-2026-10-01T07-55-55-540Z",
+    "candidatesPlanned": 12,
+    "completedCandidates": 12
+  },
+  "interruptions": [
+    {
+      "run": "mpc-2026-10-01T08-09-40-333Z",
+      "reason": "Indoor aiming model omitted perspective and short shooting/ducking sequences; replacing after source and local probe evidence",
+      "lastFrame": 8365,
+      "replayVerified": false
+    },
+    {
+      "run": "mpc-2026-10-01T08-12-55-089Z",
+      "reason": "Laser button retrigger resets beam: source and controlled 160-frame comparison confirmed. Replacing fire semantics and indoor horizon.",
+      "lastFrame": 7085,
+      "replayVerified": false
+    }
+  ],
+  "groups": [
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "46b499d199758c81a5b96c93f218d62f22d09e248affe9075e8b066c0082fb53",
+      "budget": 7000,
+      "scope": "fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "mpc-2026-10-01T08-03-06-465Z",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2414,
+          "deaths": 0,
+          "lives": 2,
+          "frames": 7004,
+          "wallSeconds": 275.1005858,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "mpc-2026-10-01T08-03-06-465Z",
+          "count": 1,
+          "meanReachedStage": 1,
+          "bestReachedStage": 1,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "mpc-2026-10-01T08-03-06-465Z",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          0,
+          2414,
+          0,
+          0,
+          0,
+          -7004
+        ],
+        "config": {
+          "horizon": 80,
+          "commit": 16
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "46b499d199758c81a5b96c93f218d62f22d09e248affe9075e8b066c0082fb53",
+      "budget": 8000,
+      "scope": "fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "mpc-2026-10-01T08-07-55-820Z",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 2,
+          "progress": 0,
+          "deaths": 0,
+          "lives": 2,
+          "frames": 5421,
+          "wallSeconds": 88.0130063,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "mpc-2026-10-01T08-07-55-820Z",
+          "count": 1,
+          "meanReachedStage": 2,
+          "bestReachedStage": 2,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "mpc-2026-10-01T08-07-55-820Z",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          -5421
+        ],
+        "config": {
+          "horizon": 80,
+          "commit": 16
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "46b499d199758c81a5b96c93f218d62f22d09e248affe9075e8b066c0082fb53",
+      "budget": 16000,
+      "scope": "fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "mpc-2026-10-01T08-18-10-275Z",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 2,
+          "progress": 512,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 7021,
+          "wallSeconds": 159.4014282,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "mpc-2026-10-01T08-21-19-198Z",
+          "candidate": 0,
+          "episode": 2,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 2,
+          "progress": 1280,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 9453,
+          "wallSeconds": 189.3653263,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "mpc-2026-10-01T08-24-50-140Z",
+          "candidate": 0,
+          "episode": 3,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 2,
+          "progress": 1280,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 10093,
+          "wallSeconds": 121.6647129,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "mpc-2026-10-01T08-27-40-214Z",
+          "candidate": 0,
+          "episode": 4,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 3,
+          "progress": 0,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 12096,
+          "wallSeconds": 455.0583591,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "mpc-2026-10-01T08-18-10-275Z",
+          "count": 1,
+          "meanReachedStage": 2,
+          "bestReachedStage": 2,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "mpc-2026-10-01T08-21-19-198Z",
+          "count": 1,
+          "meanReachedStage": 2,
+          "bestReachedStage": 2,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "mpc-2026-10-01T08-24-50-140Z",
+          "count": 1,
+          "meanReachedStage": 2,
+          "bestReachedStage": 2,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "mpc-2026-10-01T08-27-40-214Z",
+          "count": 1,
+          "meanReachedStage": 3,
+          "bestReachedStage": 3,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "mpc-2026-10-01T08-27-40-214Z",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          -12096
+        ],
+        "config": {
+          "horizon": 80,
+          "commit": 16
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "46b499d199758c81a5b96c93f218d62f22d09e248affe9075e8b066c0082fb53",
+      "budget": 22000,
+      "scope": "fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "mpc-2026-10-01T08-37-24-611Z",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 3,
+          "progress": 166,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 13408,
+          "wallSeconds": 219.7653269,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "mpc-2026-10-01T08-37-24-611Z",
+          "count": 1,
+          "meanReachedStage": 3,
+          "bestReachedStage": 3,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "mpc-2026-10-01T08-37-24-611Z",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          2,
+          166,
+          0,
+          0,
+          0,
+          -13408
+        ],
+        "config": {
+          "horizon": 80,
+          "commit": 16
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 8000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-163243",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 2,
+          "progress": 0,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 4890,
+          "wallSeconds": 106.52112800000032,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-163243",
+          "count": 1,
+          "meanReachedStage": 2,
+          "bestReachedStage": 2,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-163243",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          206,
+          -4890
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 80
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 14000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-163735",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 3,
+          "progress": 0,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 10623,
+          "wallSeconds": 167.66762169999856,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-163735",
+          "count": 1,
+          "meanReachedStage": 3,
+          "bestReachedStage": 3,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-163735",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          342,
+          -10623
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 80
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 19000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-164106",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 3,
+          "progress": 166,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 13135,
+          "wallSeconds": 180.63117480000074,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-164106",
+          "count": 1,
+          "meanReachedStage": 3,
+          "bestReachedStage": 3,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-164106",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          2,
+          166,
+          0,
+          0,
+          348,
+          -13135
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 80
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 20000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-164731",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 3,
+          "progress": 260,
+          "deaths": 0,
+          "lives": 3,
+          "frames": 13503,
+          "wallSeconds": 92.78006689999893,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-164731",
+          "count": 1,
+          "meanReachedStage": 3,
+          "bestReachedStage": 3,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-164731",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          2,
+          260,
+          0,
+          0,
+          358,
+          -13503
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 24000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-164912",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 3,
+          "progress": 1110,
+          "deaths": 1,
+          "lives": 3,
+          "frames": 16543,
+          "wallSeconds": 133.88295590000052,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-164912",
+          "count": 1,
+          "meanReachedStage": 3,
+          "bestReachedStage": 3,
+          "victories": 0,
+          "meanDeaths": 1
+        }
+      ],
+      "best": {
+        "run": "native-20261001-164912",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          2,
+          1110,
+          -1,
+          0,
+          369,
+          -16543
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 26000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-165135",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 3,
+          "progress": 2064,
+          "deaths": 1,
+          "lives": 2,
+          "frames": 20143,
+          "wallSeconds": 166.24180860000342,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-165135",
+          "count": 1,
+          "meanReachedStage": 3,
+          "bestReachedStage": 3,
+          "victories": 0,
+          "meanDeaths": 1
+        }
+      ],
+      "best": {
+        "run": "native-20261001-165135",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          2,
+          2064,
+          -1,
+          0,
+          390,
+          -20143
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 28000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-165430",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 4,
+          "progress": 0,
+          "deaths": 2,
+          "lives": 2,
+          "frames": 22165,
+          "wallSeconds": 92.5733470999985,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-165430",
+          "count": 1,
+          "meanReachedStage": 4,
+          "bestReachedStage": 4,
+          "victories": 0,
+          "meanDeaths": 2
+        }
+      ],
+      "best": {
+        "run": "native-20261001-165430",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          3,
+          0,
+          -2,
+          0,
+          510,
+          -22165
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 40000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-165640",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 4,
+          "progress": 2048,
+          "deaths": 2,
+          "lives": 2,
+          "frames": 31925,
+          "wallSeconds": 266.8112070999996,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-170321",
+          "candidate": 0,
+          "episode": 2,
+          "kind": "fresh_boot_recertification",
+          "sourceResult": "contra\\runs\\native-20261001-165640\\result.json",
+          "reachedStage": 4,
+          "progress": 2048,
+          "deaths": 2,
+          "lives": 2,
+          "frames": 31925,
+          "wallSeconds": 266.8112070999996,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-170353",
+          "candidate": 0,
+          "episode": 3,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 4,
+          "progress": 2048,
+          "deaths": 2,
+          "lives": 2,
+          "frames": 32549,
+          "wallSeconds": 169.95149949999904,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-170717",
+          "candidate": 0,
+          "episode": 4,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 5,
+          "progress": 0,
+          "deaths": 2,
+          "lives": 2,
+          "frames": 33262,
+          "wallSeconds": 95.99472000000242,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-165640",
+          "count": 1,
+          "meanReachedStage": 4,
+          "bestReachedStage": 4,
+          "victories": 0,
+          "meanDeaths": 2
+        },
+        {
+          "run": "native-20261001-170321",
+          "count": 1,
+          "meanReachedStage": 4,
+          "bestReachedStage": 4,
+          "victories": 0,
+          "meanDeaths": 2
+        },
+        {
+          "run": "native-20261001-170353",
+          "count": 1,
+          "meanReachedStage": 4,
+          "bestReachedStage": 4,
+          "victories": 0,
+          "meanDeaths": 2
+        },
+        {
+          "run": "native-20261001-170717",
+          "count": 1,
+          "meanReachedStage": 5,
+          "bestReachedStage": 5,
+          "victories": 0,
+          "meanDeaths": 2
+        }
+      ],
+      "best": {
+        "run": "native-20261001-170717",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          4,
+          0,
+          -2,
+          0,
+          789,
+          -33262
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 80
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 46000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-170907",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 5,
+          "progress": 1069,
+          "deaths": 2,
+          "lives": 3,
+          "frames": 34974,
+          "wallSeconds": 103.78935240000283,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-171103",
+          "candidate": 0,
+          "episode": 2,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 5,
+          "progress": 5120,
+          "deaths": 4,
+          "lives": 1,
+          "frames": 42430,
+          "wallSeconds": 219.310060900003,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-170907",
+          "count": 1,
+          "meanReachedStage": 5,
+          "bestReachedStage": 5,
+          "victories": 0,
+          "meanDeaths": 2
+        },
+        {
+          "run": "native-20261001-171103",
+          "count": 1,
+          "meanReachedStage": 5,
+          "bestReachedStage": 5,
+          "victories": 0,
+          "meanDeaths": 4
+        }
+      ],
+      "best": {
+        "run": "native-20261001-171103",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          4,
+          5120,
+          -4,
+          0,
+          867,
+          -42430
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 80
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 50000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-171509",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 0,
+          "deaths": 4,
+          "lives": 1,
+          "frames": 43097,
+          "wallSeconds": 61.90777479999815,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-171509",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 4
+        }
+      ],
+      "best": {
+        "run": "native-20261001-171509",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          5,
+          0,
+          -4,
+          0,
+          1017,
+          -43097
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 80
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 54000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-171629",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1448,
+          "deaths": 6,
+          "lives": 0,
+          "frames": 45742,
+          "wallSeconds": 80.4683812000003,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-171819",
+          "candidate": 0,
+          "episode": 2,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 793,
+          "deaths": 4,
+          "lives": 1,
+          "frames": 45193,
+          "wallSeconds": 151.585061400001,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-172101",
+          "candidate": 0,
+          "episode": 3,
+          "kind": "fresh_boot_recertification",
+          "sourceResult": "contra\\runs\\native-20261001-171819\\result.json",
+          "reachedStage": 6,
+          "progress": 793,
+          "deaths": 4,
+          "lives": 1,
+          "frames": 45193,
+          "wallSeconds": 151.585061400001,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-171629",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 6
+        },
+        {
+          "run": "native-20261001-171819",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 4
+        },
+        {
+          "run": "native-20261001-172101",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 4
+        }
+      ],
+      "best": {
+        "run": "native-20261001-171629",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          5,
+          1448,
+          -6,
+          0,
+          1040,
+          -45742
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 80
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 56000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-172139",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1608,
+          "deaths": 6,
+          "lives": 0,
+          "frames": 47249,
+          "wallSeconds": 108.94951810000202,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-172400",
+          "candidate": 0,
+          "episode": 2,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1455,
+          "deaths": 6,
+          "lives": 0,
+          "frames": 46885,
+          "wallSeconds": 86.40800549999403,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-172712",
+          "candidate": 0,
+          "episode": 3,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1736,
+          "deaths": 4,
+          "lives": 1,
+          "frames": 47433,
+          "wallSeconds": 182.28476919999957,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-172139",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 6
+        },
+        {
+          "run": "native-20261001-172400",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 6
+        },
+        {
+          "run": "native-20261001-172712",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 4
+        }
+      ],
+      "best": {
+        "run": "native-20261001-172712",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          5,
+          1736,
+          -4,
+          0,
+          1048,
+          -47433
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 58000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-173032",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 2603,
+          "deaths": 4,
+          "lives": 1,
+          "frames": 50873,
+          "wallSeconds": 260.24371899999824,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-173032",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 4
+        }
+      ],
+      "best": {
+        "run": "native-20261001-173032",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          5,
+          2603,
+          -4,
+          0,
+          1069,
+          -50873
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 62000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-173505",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 3072,
+          "deaths": 5,
+          "lives": 1,
+          "frames": 55065,
+          "wallSeconds": 169.83073490000243,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-173505",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 5
+        }
+      ],
+      "best": {
+        "run": "native-20261001-173505",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          5,
+          3072,
+          -5,
+          0,
+          1219,
+          -55065
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 68000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-173827",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 7,
+          "progress": 1330,
+          "deaths": 6,
+          "lives": 0,
+          "frames": 58121,
+          "wallSeconds": 132.09229929999856,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-173827",
+          "count": 1,
+          "meanReachedStage": 7,
+          "bestReachedStage": 7,
+          "victories": 0,
+          "meanDeaths": 6
+        }
+      ],
+      "best": {
+        "run": "native-20261001-173827",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          6,
+          1330,
+          -6,
+          0,
+          1232,
+          -58121
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 160
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 69000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-174101",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 8,
+          "progress": 0,
+          "deaths": 5,
+          "lives": 2,
+          "frames": 62289,
+          "wallSeconds": 306.44395500000246,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-174101",
+          "count": 1,
+          "meanReachedStage": 8,
+          "bestReachedStage": 8,
+          "victories": 0,
+          "meanDeaths": 5
+        }
+      ],
+      "best": {
+        "run": "native-20261001-174101",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          7,
+          0,
+          -5,
+          0,
+          1423,
+          -62289
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 76000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-174625",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 8,
+          "progress": 2560,
+          "deaths": 5,
+          "lives": 3,
+          "frames": 67190,
+          "wallSeconds": 191.62492550000024,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": true,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-174625",
+          "count": 1,
+          "meanReachedStage": 8,
+          "bestReachedStage": 8,
+          "victories": 1,
+          "meanDeaths": 5
+        }
+      ],
+      "best": {
+        "run": "native-20261001-174625",
+        "candidate": 0,
+        "rank": [
+          1,
+          0,
+          7,
+          2560,
+          -5,
+          0,
+          6657,
+          -67190
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 160
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 27000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "zero_death",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-190046",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 4,
+          "progress": 0,
+          "deaths": 0,
+          "lives": 4,
+          "frames": 23076,
+          "wallSeconds": 126.28268869999738,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-190046",
+          "count": 1,
+          "meanReachedStage": 4,
+          "bestReachedStage": 4,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-190046",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          3,
+          0,
+          0,
+          0,
+          541,
+          -23076
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 85000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "zero_death",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-190306",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 4,
+          "progress": 256,
+          "deaths": 0,
+          "lives": 4,
+          "frames": 30916,
+          "wallSeconds": 130.31028420000803,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-190306",
+          "count": 1,
+          "meanReachedStage": 4,
+          "bestReachedStage": 4,
+          "victories": 0,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-190306",
+        "candidate": 0,
+        "rank": [
+          0,
+          0,
+          3,
+          256,
+          0,
+          0,
+          697,
+          -30916
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 240
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 95000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "zero_death",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-190539",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 4,
+          "progress": 256,
+          "deaths": 0,
+          "lives": 4,
+          "frames": 39492,
+          "wallSeconds": 144.71833250000782,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-190944",
+          "candidate": 0,
+          "episode": 2,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 5,
+          "progress": 2540,
+          "deaths": 1,
+          "lives": 5,
+          "frames": 49712,
+          "wallSeconds": 230.9958867999958,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-191706",
+          "candidate": 0,
+          "episode": 3,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 5,
+          "progress": 2540,
+          "deaths": 1,
+          "lives": 5,
+          "frames": 49712,
+          "wallSeconds": 42.07366570000886,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-191909",
+          "candidate": 0,
+          "episode": 4,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1736,
+          "deaths": 1,
+          "lives": 6,
+          "frames": 58309,
+          "wallSeconds": 145.33712809999997,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-192155",
+          "candidate": 0,
+          "episode": 5,
+          "kind": "fresh_boot_recertification",
+          "sourceResult": "contra\\runs\\native-20261001-191909\\result.json",
+          "reachedStage": 6,
+          "progress": 1736,
+          "deaths": 1,
+          "lives": 6,
+          "frames": 58309,
+          "wallSeconds": 145.33712809999997,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-192246",
+          "candidate": 0,
+          "episode": 6,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1736,
+          "deaths": 1,
+          "lives": 6,
+          "frames": 58309,
+          "wallSeconds": 43.03521480000927,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-192331",
+          "candidate": 0,
+          "episode": 7,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1736,
+          "deaths": 0,
+          "lives": 6,
+          "frames": 58908,
+          "wallSeconds": 118.70894870000484,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-192538",
+          "candidate": 0,
+          "episode": 8,
+          "kind": "fresh_boot_recertification",
+          "sourceResult": "contra\\runs\\native-20261001-192331\\result.json",
+          "reachedStage": 6,
+          "progress": 1736,
+          "deaths": 0,
+          "lives": 6,
+          "frames": 58908,
+          "wallSeconds": 118.70894870000484,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-192606",
+          "candidate": 0,
+          "episode": 9,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1736,
+          "deaths": 0,
+          "lives": 6,
+          "frames": 59484,
+          "wallSeconds": 197.81779319999623,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-192926",
+          "candidate": 0,
+          "episode": 10,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1448,
+          "deaths": 0,
+          "lives": 6,
+          "frames": 57900,
+          "wallSeconds": 103.20693459999165,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-193121",
+          "candidate": 0,
+          "episode": 11,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 6,
+          "progress": 1448,
+          "deaths": 0,
+          "lives": 6,
+          "frames": 57900,
+          "wallSeconds": 105.72605650000332,
+          "gunKills": null,
+          "replayEqual": false,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "native-20261001-193315",
+          "candidate": 0,
+          "episode": 12,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 8,
+          "progress": 2560,
+          "deaths": 0,
+          "lives": 10,
+          "frames": 77187,
+          "wallSeconds": 559.7081506999966,
+          "gunKills": 14,
+          "replayEqual": true,
+          "fullGameClearVerified": true,
+          "oneLifeClearVerified": true
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-190539",
+          "count": 1,
+          "meanReachedStage": 4,
+          "bestReachedStage": 4,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "native-20261001-190944",
+          "count": 1,
+          "meanReachedStage": 5,
+          "bestReachedStage": 5,
+          "victories": 0,
+          "meanDeaths": 1
+        },
+        {
+          "run": "native-20261001-191706",
+          "count": 1,
+          "meanReachedStage": 5,
+          "bestReachedStage": 5,
+          "victories": 0,
+          "meanDeaths": 1
+        },
+        {
+          "run": "native-20261001-191909",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 1
+        },
+        {
+          "run": "native-20261001-192155",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 1
+        },
+        {
+          "run": "native-20261001-192246",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 1
+        },
+        {
+          "run": "native-20261001-192331",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "native-20261001-192538",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "native-20261001-192606",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "native-20261001-192926",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "native-20261001-193121",
+          "count": 1,
+          "meanReachedStage": 6,
+          "bestReachedStage": 6,
+          "victories": 0,
+          "meanDeaths": 0
+        },
+        {
+          "run": "native-20261001-193315",
+          "count": 1,
+          "meanReachedStage": 8,
+          "bestReachedStage": 8,
+          "victories": 1,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-193315",
+        "candidate": 0,
+        "rank": [
+          1,
+          1,
+          7,
+          2560,
+          0,
+          14,
+          7077,
+          -77187
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 320
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "budget": 95000,
+      "scope": "native_fresh_boot_model_search",
+      "objective": "zero_death",
+      "combatStyle": "aggressive",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "native-20261001-201819",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 8,
+          "progress": 2560,
+          "deaths": 0,
+          "lives": 10,
+          "frames": 77417,
+          "wallSeconds": 420.31495059998997,
+          "gunKills": 17,
+          "replayEqual": true,
+          "fullGameClearVerified": true,
+          "oneLifeClearVerified": true
+        }
+      ],
+      "rounds": [
+        {
+          "run": "native-20261001-201819",
+          "count": 1,
+          "meanReachedStage": 8,
+          "bestReachedStage": 8,
+          "victories": 1,
+          "meanDeaths": 0
+        }
+      ],
+      "best": {
+        "run": "native-20261001-201819",
+        "candidate": 0,
+        "rank": [
+          1,
+          1,
+          7,
+          2560,
+          0,
+          17,
+          7028,
+          -77417
+        ],
+        "config": {
+          "engine": "fceumm",
+          "horizon": 320
+        }
+      }
+    },
+    {
+      "romSha256": "26541a5550ee22deeb3d5484e4a96130219b58cff74d068fb1eb6567fa5e5519",
+      "coreSha256": "46b499d199758c81a5b96c93f218d62f22d09e248affe9075e8b066c0082fb53",
+      "budget": 18000,
+      "scope": "fresh_boot_parameter_search",
+      "objective": "clear",
+      "combatStyle": "balanced",
+      "stageCount": 8,
+      "episodes": [
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 0,
+          "episode": 1,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2263,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3710,
+          "wallSeconds": 9.3485877,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 1,
+          "episode": 2,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2263,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3710,
+          "wallSeconds": 9.1523444,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 2,
+          "episode": 3,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3569,
+          "wallSeconds": 8.9850298,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 3,
+          "episode": 4,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3569,
+          "wallSeconds": 10.250933499999999,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 4,
+          "episode": 5,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3607,
+          "wallSeconds": 8.916992099999996,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 5,
+          "episode": 6,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3607,
+          "wallSeconds": 10.749096599999998,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 6,
+          "episode": 7,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2213,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3636,
+          "wallSeconds": 8.807192500000005,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 7,
+          "episode": 8,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2213,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3636,
+          "wallSeconds": 8.5642405,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 8,
+          "episode": 9,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3577,
+          "wallSeconds": 8.98700970000001,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 9,
+          "episode": 10,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3577,
+          "wallSeconds": 8.480761,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 10,
+          "episode": 11,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3606,
+          "wallSeconds": 8.606102299999998,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "candidate": 11,
+          "episode": 12,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3606,
+          "wallSeconds": 8.816939799999993,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 0,
+          "episode": 13,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2045,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3484,
+          "wallSeconds": 8.486811099999999,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 1,
+          "episode": 14,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2025,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3485,
+          "wallSeconds": 8.4068565,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 2,
+          "episode": 15,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2467,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3893,
+          "wallSeconds": 10.0183684,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 3,
+          "episode": 16,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2031,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3451,
+          "wallSeconds": 8.211828399999998,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 4,
+          "episode": 17,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2355,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3780,
+          "wallSeconds": 9.310578199999997,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 5,
+          "episode": 18,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2025,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3485,
+          "wallSeconds": 8.831408299999996,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 6,
+          "episode": 19,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2371,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3817,
+          "wallSeconds": 8.9691596,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 7,
+          "episode": 20,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2481,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3924,
+          "wallSeconds": 9.751100299999997,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 8,
+          "episode": 21,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3580,
+          "wallSeconds": 9.2452932,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 9,
+          "episode": 22,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2263,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3684,
+          "wallSeconds": 9.326763200000002,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 10,
+          "episode": 23,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2209,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3629,
+          "wallSeconds": 8.867046300000002,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "candidate": 11,
+          "episode": 24,
+          "kind": "training",
+          "sourceResult": null,
+          "reachedStage": 1,
+          "progress": 2182,
+          "deaths": 3,
+          "lives": 0,
+          "frames": 3585,
+          "wallSeconds": 9.141470100000006,
+          "gunKills": null,
+          "replayEqual": true,
+          "fullGameClearVerified": false,
+          "oneLifeClearVerified": false
+        }
+      ],
+      "rounds": [
+        {
+          "run": "search-2026-10-01T07-53-05-089Z",
+          "count": 12,
+          "meanReachedStage": 1,
+          "bestReachedStage": 1,
+          "victories": 0,
+          "meanDeaths": 3
+        },
+        {
+          "run": "search-2026-10-01T07-55-55-540Z",
+          "count": 12,
+          "meanReachedStage": 1,
+          "bestReachedStage": 1,
+          "victories": 0,
+          "meanDeaths": 3
+        }
+      ],
+      "best": {
+        "run": "search-2026-10-01T07-55-55-540Z",
+        "candidate": 7,
+        "rank": [
+          0,
+          0,
+          0,
+          2481,
+          -3,
+          0,
+          0,
+          -3924
+        ],
+        "config": {
+          "name": "jump-refine-30-fire8",
+          "firePeriod": 8,
+          "fireHold": 3,
+          "jumpPeriod": 30,
+          "jumpHold": 8,
+          "stallFrames": 45,
+          "sweepPeriod": 120,
+          "verticalCenter": 128,
+          "stagePolicies": {}
+        }
+      }
+    }
+  ],
+  "episodes": 71
+}

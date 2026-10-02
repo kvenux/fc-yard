@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "games": {
+    "battlecity": {
+      "title": "坦克大战",
+      "backend": "browser reimplementation",
+      "live": "http://127.0.0.1:8787/live.html",
+      "policy": "live-policy.json",
+      "scope": "35 stages; seed 4004; browser rules; not a NES ROM result"
+    },
+    "contra": {
+      "title": "魂斗罗 US",
+      "backend": "FCEUmm libretro",
+      "rom": "contra/roms/contra.nes",
+      "core": "contra/cores/fceumm_libretro.dll",
+      "inputs": "contra/runs/native-20261001-201819/result.json",
+      "proof": "data/contra/proof.json",
+      "headless": false,
+      "live": "http://127.0.0.1:8787/contra/replay.html"
+    },
+    "orlegend": {
+      "title": "西游释厄传 V126",
+      "backend": "FBNeo libretro",
+      "rom": "arcade/roms/orlegend.zip",
+      "core": "arcade/cores/fbneo_libretro.dll",
+      "inputs": "arcade/runs/orlegend/bt/full-v4-screen-01/64-16/inputs.jsonl",
+      "proof": "data/orlegend/proof.json",
+      "headless": true,
+      "live": "http://127.0.0.1:8791/live.html",
+      "policy": "arcade/orlegend-bt-deployed.json"
+    },
+    "kovsh": {
+      "title": "三国战纪 风云再起 V104 CN",
+      "backend": "FBNeo PGM statefix",
+      "rom": "arcade/roms/kovsh.zip",
+      "core": "arcade/cores/fbneo_pgm_statefix_libretro.dll",
+      "inputs": "arcade/runs/kovsh/one-life-chapter4-best-prefix-045.jsonl",
+      "proof": "data/kovsh/proof.json",
+      "headless": true,
+      "live": "http://127.0.0.1:8796/live.html",
+      "policy": "arcade/kovsh.py"
+    }
+  }
+}

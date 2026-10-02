@@ -1,0 +1,186 @@
+[
+  {
+    "run": "chapter1-fire-01",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 143,
+    "hp": 12,
+    "frames": 22066
+  },
+  {
+    "run": "chapter1-fire-02",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 110,
+    "hp": 34,
+    "frames": 21536
+  },
+  {
+    "run": "fire-state-guard-01\\scene-0",
+    "reason": "lives_exhausted",
+    "deaths": 2,
+    "damage": 148,
+    "hp": 0,
+    "frames": 20705
+  },
+  {
+    "run": "fire-state-guard-01\\scene-3",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 105,
+    "hp": 39,
+    "frames": 22960
+  },
+  {
+    "run": "fire-boss-screen-01\\reserve-0",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 93,
+    "hp": 51,
+    "frames": 21771
+  },
+  {
+    "run": "fire-boss-screen-01\\reserve-1",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 100,
+    "hp": 44,
+    "frames": 21245
+  },
+  {
+    "run": "fire-boss-screen-01\\reserve-2",
+    "reason": "lives_exhausted",
+    "deaths": 2,
+    "damage": 144,
+    "hp": 0,
+    "frames": 20260
+  },
+  {
+    "run": "chapter4-evade-screen-01\\64-16",
+    "reason": "chapter_passed",
+    "deaths": 21,
+    "damage": 1600,
+    "hp": 1,
+    "frames": 138691
+  },
+  {
+    "run": "chapter4-evade-screen-01\\64-8",
+    "reason": "chapter_passed",
+    "deaths": 25,
+    "damage": 1823,
+    "hp": 72,
+    "frames": 149040
+  },
+  {
+    "run": "chapter4-evade-screen-01\\96-16",
+    "reason": "chapter_passed",
+    "deaths": 26,
+    "damage": 1922,
+    "hp": 34,
+    "frames": 147834
+  },
+  {
+    "run": "chapter4-evade-screen-01\\96-8",
+    "reason": "chapter_passed",
+    "deaths": 23,
+    "damage": 1689,
+    "hp": 51,
+    "frames": 146502
+  },
+  {
+    "run": "chapter3-evade-screen-01\\64-16",
+    "reason": "chapter_passed",
+    "deaths": 12,
+    "damage": 923,
+    "hp": 28,
+    "frames": 94710
+  },
+  {
+    "run": "chapter3-evade-screen-01\\64-8",
+    "reason": "chapter_passed",
+    "deaths": 10,
+    "damage": 762,
+    "hp": 42,
+    "frames": 91428
+  },
+  {
+    "run": "chapter3-evade-screen-01\\96-16",
+    "reason": "chapter_passed",
+    "deaths": 12,
+    "damage": 913,
+    "hp": 44,
+    "frames": 94544
+  },
+  {
+    "run": "chapter3-evade-screen-01\\96-8",
+    "reason": "chapter_passed",
+    "deaths": 14,
+    "damage": 1018,
+    "hp": 72,
+    "frames": 97939
+  },
+  {
+    "run": "chapter2-evade-screen-01\\64-16",
+    "reason": "chapter_passed",
+    "deaths": 5,
+    "damage": 360,
+    "hp": 72,
+    "frames": 48891
+  },
+  {
+    "run": "chapter2-evade-screen-01\\64-8",
+    "reason": "chapter_passed",
+    "deaths": 4,
+    "damage": 288,
+    "hp": 72,
+    "frames": 46091
+  },
+  {
+    "run": "chapter2-evade-screen-01\\96-16",
+    "reason": "chapter_passed",
+    "deaths": 4,
+    "damage": 292,
+    "hp": 68,
+    "frames": 50325
+  },
+  {
+    "run": "chapter2-evade-screen-01\\96-8",
+    "reason": "chapter_passed",
+    "deaths": 3,
+    "damage": 258,
+    "hp": 30,
+    "frames": 47567
+  },
+  {
+    "run": "boss-evade-screen-01\\64-16",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 124,
+    "hp": 20,
+    "frames": 22701
+  },
+  {
+    "run": "boss-evade-screen-01\\64-8",
+    "reason": "chapter_passed",
+    "deaths": 0,
+    "damage": 62,
+    "hp": 10,
+    "frames": 19851
+  },
+  {
+    "run": "boss-evade-screen-01\\96-16",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 119,
+    "hp": 25,
+    "frames": 21693
+  },
+  {
+    "run": "boss-evade-screen-01\\96-8",
+    "reason": "chapter_passed",
+    "deaths": 1,
+    "damage": 117,
+    "hp": 27,
+    "frames": 21928
+  }
+]

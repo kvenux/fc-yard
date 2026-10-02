@@ -1,0 +1,38 @@
+{
+  "period": 4,
+  "distance": 32,
+  "align": 10,
+  "jump": 0,
+  "rush": 30,
+  "push_statue": true,
+  "allow_continue": true,
+  "scenes": {
+    "256": {
+      "nav_y": 140
+    },
+    "0": {
+      "distance": 56,
+      "align": 14,
+      "jump": 120,
+      "rush": 0
+    },
+    "1": {
+      "distance": 56,
+      "align": 14,
+      "jump": 120,
+      "rush": 0
+    },
+    "2": {
+      "distance": 56,
+      "align": 14,
+      "jump": 120,
+      "rush": 0
+    },
+    "3": {
+      "distance": 56,
+      "align": 14,
+      "jump": 120,
+      "rush": 0
+    }
+  }
+}

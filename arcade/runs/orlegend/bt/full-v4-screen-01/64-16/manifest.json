@@ -1,0 +1,20 @@
+{
+  "start": "poweron",
+  "tree_sha256": "8cf9e5c91df3f2c4aee221a2e4f5519316aa86138d70bd2c7fff921c93fbd742",
+  "rom_sha256": "acdc632a0b67fead83ae1ca96d964b4344d2590b56c31e3b341da3381f3f58b3",
+  "core_sha256": "d5e64c6a6affe04b802a8448340c2acbd28a31e45d4c1bfc99b1699037b11b03",
+  "stop_stage": 8,
+  "restores": 0,
+  "sources": {
+    "behavior_tree.py": "2d22eae9d027e2435bc3de44a1bf68349f7a1ea561db5d53be8e56c17b69768e",
+    "orlegend_bt.py": "6b3a174e65c7121888711790c835557115eb21b8b78e44aad9cbf90df3fb1978",
+    "orlegend_bt_train.py": "a17305eb61889624927987e07b4a5bb0f2c0df488afa50198be7f79e8ab252af",
+    "orlegend.py": "e947b2ebb64cc90bc1b8bc7659e483656711e7b91111f6cc3c3fbdd8ae9d9941",
+    "orlegend_campaign.py": "c7ffd2bb5289d54c5d8e88c16df814cb63a8ae9852f7efb4dcb628f8e800a85b",
+    "orlegend_resources.py": "cf1d7dc0c47dfc014b7dc757c2fb5b26e1cf008975baf101db11eb2e483f9492",
+    "emulator.py": "5e4677c9149e273c121e7ab730e0bc2b6cf25f0dba2ae8c1bb4c74470654d609"
+  },
+  "equivalence_inputs": null,
+  "record": true,
+  "full_game_clear_verified": true
+}

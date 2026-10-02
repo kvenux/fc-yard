@@ -1,0 +1,21 @@
+{
+  "scope": "first_bamboo_section_exit",
+  "verified": true,
+  "continuous_poweron_frames": 93629,
+  "bamboo_policy_frames": 6739,
+  "frames_to_last_enemy_clear": 6496,
+  "frames_clear_to_exit": 243,
+  "hp_remaining": 57,
+  "lives_remaining": 2,
+  "coin_edges": 1,
+  "deaths": [],
+  "native_checkpoint_equal": true,
+  "independent_replay_equal": true,
+  "terminal_ram_state_equal": true,
+  "full_game_clear_verified": false,
+  "sources": [
+    "one-life-bamboo-tempo-021",
+    "bamboo-exit-recheck-024/diagonal_down_174",
+    "one-life-bamboo-exit-cold-025"
+  ]
+}

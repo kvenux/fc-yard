@@ -1,0 +1,234 @@
+{
+  "controllerOnlyReplayMatches": true,
+  "allShotsHaveIntent": true,
+  "rateLimitPassed": true,
+  "frame": 160561,
+  "stages": [
+    {
+      "stage": 1,
+      "score": 2200,
+      "lives": 3,
+      "frame": 5324
+    },
+    {
+      "stage": 2,
+      "score": 5200,
+      "lives": 3,
+      "frame": 10038
+    },
+    {
+      "stage": 3,
+      "score": 8200,
+      "lives": 3,
+      "frame": 15660
+    },
+    {
+      "stage": 4,
+      "score": 13600,
+      "lives": 4,
+      "frame": 21454
+    },
+    {
+      "stage": 5,
+      "score": 17700,
+      "lives": 3,
+      "frame": 26454
+    },
+    {
+      "stage": 6,
+      "score": 21900,
+      "lives": 3,
+      "frame": 31978
+    },
+    {
+      "stage": 7,
+      "score": 25500,
+      "lives": 3,
+      "frame": 36105
+    },
+    {
+      "stage": 8,
+      "score": 29900,
+      "lives": 3,
+      "frame": 40224
+    },
+    {
+      "stage": 9,
+      "score": 34600,
+      "lives": 3,
+      "frame": 44526
+    },
+    {
+      "stage": 10,
+      "score": 38200,
+      "lives": 4,
+      "frame": 48875
+    },
+    {
+      "stage": 11,
+      "score": 43800,
+      "lives": 5,
+      "frame": 54946
+    },
+    {
+      "stage": 12,
+      "score": 49800,
+      "lives": 4,
+      "frame": 60401
+    },
+    {
+      "stage": 13,
+      "score": 55400,
+      "lives": 5,
+      "frame": 66834
+    },
+    {
+      "stage": 14,
+      "score": 61600,
+      "lives": 7,
+      "frame": 70768
+    },
+    {
+      "stage": 15,
+      "score": 67000,
+      "lives": 8,
+      "frame": 74841
+    },
+    {
+      "stage": 16,
+      "score": 69800,
+      "lives": 8,
+      "frame": 79872
+    },
+    {
+      "stage": 17,
+      "score": 74200,
+      "lives": 7,
+      "frame": 85080
+    },
+    {
+      "stage": 18,
+      "score": 79400,
+      "lives": 7,
+      "frame": 89250
+    },
+    {
+      "stage": 19,
+      "score": 85000,
+      "lives": 9,
+      "frame": 93323
+    },
+    {
+      "stage": 20,
+      "score": 90600,
+      "lives": 9,
+      "frame": 98181
+    },
+    {
+      "stage": 21,
+      "score": 95600,
+      "lives": 9,
+      "frame": 103773
+    },
+    {
+      "stage": 22,
+      "score": 100000,
+      "lives": 10,
+      "frame": 107015
+    },
+    {
+      "stage": 23,
+      "score": 105600,
+      "lives": 11,
+      "frame": 110336
+    },
+    {
+      "stage": 24,
+      "score": 109400,
+      "lives": 11,
+      "frame": 113443
+    },
+    {
+      "stage": 25,
+      "score": 115600,
+      "lives": 12,
+      "frame": 117509
+    },
+    {
+      "stage": 26,
+      "score": 120800,
+      "lives": 14,
+      "frame": 120969
+    },
+    {
+      "stage": 27,
+      "score": 126400,
+      "lives": 14,
+      "frame": 125390
+    },
+    {
+      "stage": 28,
+      "score": 129300,
+      "lives": 14,
+      "frame": 128761
+    },
+    {
+      "stage": 29,
+      "score": 135500,
+      "lives": 14,
+      "frame": 132999
+    },
+    {
+      "stage": 30,
+      "score": 140300,
+      "lives": 16,
+      "frame": 136640
+    },
+    {
+      "stage": 31,
+      "score": 146100,
+      "lives": 16,
+      "frame": 140819
+    },
+    {
+      "stage": 32,
+      "score": 151300,
+      "lives": 16,
+      "frame": 146147
+    },
+    {
+      "stage": 33,
+      "score": 157300,
+      "lives": 16,
+      "frame": 150801
+    },
+    {
+      "stage": 34,
+      "score": 162900,
+      "lives": 15,
+      "frame": 155329
+    },
+    {
+      "stage": 35,
+      "score": 169300,
+      "lives": 14,
+      "frame": 160251
+    }
+  ],
+  "final": {
+    "phase": "victory",
+    "stage": 35,
+    "score": 169300,
+    "lives": 14,
+    "eagle": true,
+    "remaining": 0,
+    "player": {
+      "x": 30,
+      "y": 64
+    },
+    "reason": "手动"
+  },
+  "rng": 2278838566,
+  "minGap": 12,
+  "presses": 2007
+}

@@ -1,0 +1,20 @@
+{
+  "game": "contra",
+  "frames": 77417,
+  "deaths": 0,
+  "coins": 0,
+  "equal": {
+    "state": true,
+    "ram": true,
+    "video": true
+  },
+  "passed": true,
+  "actual": {
+    "state": "fb0ba37e2e5be8bc76433994c407ac9dbd941ec93fa0fceebe260b31e293b56f",
+    "ram": "d08f14000db397a1f37ae1d8ee68e3590dac44e5f6bdcc7ccba8b6e4332a9502",
+    "video": "704290ef51c27b0db6523cb3e3971dedd8705acba445b88d12f619affa044a2a"
+  },
+  "scope": "eight stages, zero deaths",
+  "restores": 0,
+  "seconds": 20.23
+}

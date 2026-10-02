@@ -1,0 +1,54 @@
+{
+  "environment": "single player browser reimplementation; privileged state; seeded random; max 36000 frames per run",
+  "errors": [],
+  "runs": [
+    {
+      "seed": 1,
+      "frames": 6723,
+      "phase": "gameover_tally",
+      "stage": 2,
+      "score": 2600,
+      "lives": -1,
+      "eagle": true,
+      "remaining": 19,
+      "player": {
+        "x": 123,
+        "y": 24
+      },
+      "reason": "规划路径，移动拦截",
+      "kills": 1
+    },
+    {
+      "seed": 2,
+      "frames": 7784,
+      "phase": "gameover_tally",
+      "stage": 2,
+      "score": 3700,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 12,
+      "player": {
+        "x": 49,
+        "y": 160
+      },
+      "reason": "迎击近距离子弹",
+      "kills": 8
+    },
+    {
+      "seed": 3,
+      "frames": 2612,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 300,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 17,
+      "player": {
+        "x": 89,
+        "y": 120
+      },
+      "reason": "迎击近距离子弹",
+      "kills": 3
+    }
+  ]
+}

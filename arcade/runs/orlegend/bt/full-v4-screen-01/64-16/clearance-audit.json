@@ -1,0 +1,26 @@
+{
+  "baseline": "arcade\\runs\\orlegend\\life-saving-cold-01",
+  "candidate": "arcade\\runs\\orlegend\\bt\\full-v4-screen-01\\64-16",
+  "baseline_deaths": 150,
+  "candidate_deaths": 123,
+  "accepted": true,
+  "scope": "full_game",
+  "reason": "lower full-game deaths with independent replay and ending review",
+  "continues": 61,
+  "lives_used_including_survivor": 124,
+  "visual_ending_verified": true,
+  "state_and_ram_replay_equal": true,
+  "frames": 443798,
+  "full_game_clear_verified": true,
+  "cold_start_restores": 0,
+  "life_accounting": {
+    "allocated": 124,
+    "dead": 123,
+    "remaining": 1
+  },
+  "input_sha256": "adf2bc11ce91e2c2e226db7ef20fdbd48b822e4628f9fd716de0f88914ecebf6",
+  "ending_evidence": [
+    "verified-ending-0441900.png",
+    "verified-ending-0443700.png"
+  ]
+}

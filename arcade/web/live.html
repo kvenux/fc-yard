@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>风云再起 · AI 街机实验场</title><link rel="stylesheet" href="live.css"></head>
+<body>
+<aside class="controls">
+  <a class="brand" href="/">ARCADE / 实验场</a><h1>直播控制台</h1><p>三国战纪 · 风云再起</p>
+  <div class="control-grid"><button id="play">开始运行</button><button id="step">单帧</button><button id="save">保存训练起点</button><button id="reload">重新检测 ROM</button></div>
+  <label>播放速度<select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+  <label>控制方式<select id="mode"><option value="manual">手动校准</option><option value="heuristic">启发式策略</option></select></label>
+  <button id="capture">进入直播画幅</button>
+  <p class="help">方向键移动 · J 攻击 · K 跳跃<br>U 按钮 C · I 按钮 D · 5 投币 · Enter 开始<br>手动模式支持拖动摇杆、按住按钮。<br>按键映射待游戏内核对。当前直播无声。</p>
+  <div id="notice" role="status"></div><p class="help">OBS 浏览器来源：1080 × 1920<br>URL 加上 ?capture=1<br>Esc 返回控制台</p>
+</aside>
+<main class="broadcast">
+  <header><div class="seal">街機</div><div><p class="eyebrow">KNIGHTS OF VALOUR · SUPER HEROES</p><h2>三国战纪 <span>风云再起</span></h2></div><div class="live-badge"><i></i><span id="badge">待机</span></div></header>
+  <section class="screen"><img id="game" alt="风云再起实时游戏画面" hidden><div id="empty"><span class="large-seal">戰</span><h3>等待游戏载入</h3><p id="empty-copy">正在连接本地模拟器…</p><small>FBNeo · 原版街机模拟</small></div></section>
+  <section class="stats"><div><span>生命</span><strong id="lives">—</strong></div><div><span>血量</span><strong id="hp">—</strong></div><div><span>得分</span><strong id="score">—</strong></div><div><span>关卡进展</span><strong id="progress">—</strong></div></section>
+  <section class="cabinet" aria-label="街机摇杆与四按钮操作面板">
+    <div class="cabinet-deck">
+      <img class="cabinet-art" src="assets/arcade-panel-v1.png" width="2172" height="724" alt="金属街机面板：左侧红色球头摇杆，右侧红、黄、绿、蓝四颗 A B C D 圆按钮" draggable="false">
+      <div class="stick-indicator" id="stick-indicator" aria-hidden="true"></div>
+      <div class="stick-zone" id="stick-zone" role="group" aria-label="方向摇杆；支持拖动或方向键"></div>
+      <button class="cabinet-button button-a" data-key="attack" type="button" aria-label="A 攻击，键盘 J" aria-pressed="false" disabled></button>
+      <button class="cabinet-button button-b" data-key="jump" type="button" aria-label="B 跳跃，键盘 K" aria-pressed="false" disabled></button>
+      <button class="cabinet-button button-c" data-key="c" type="button" aria-label="C 道具栏，键盘 U，功能待实测" aria-pressed="false" disabled></button>
+      <button class="cabinet-button button-d" data-key="d" type="button" aria-label="D 使用道具，键盘 I，功能待实测" aria-pressed="false" disabled></button>
+    </div>
+    <div class="cabinet-caption"><span id="stick-state">摇杆 · 中立</span><span id="button-state">A 攻击 · B 跳跃 · C / D 道具操作</span></div>
+  </section>
+  <section class="strategy"><p class="eyebrow">当前动作 / DECISION</p><h3 id="reason">等待载入游戏</h3><p id="evidence">尚未开始训练 · 通关未验证</p></section>
+  <section class="inventory"><p class="eyebrow">道具 / INVENTORY</p><p id="inventory">道具状态未校准</p><p id="item-result">尚无使用记录</p></section>
+  <footer><div><span class="eyebrow">游戏时间</span><strong id="clock">00:00</strong></div><div><span class="eyebrow">实际速度</span><strong id="actual">0.00×</strong></div><div><span class="eyebrow">已记录输入</span><strong id="frames">0 帧</strong></div></footer>
+  <p class="provenance">实时模拟器画面 · 普通按键控制 · 对局记录可核验</p>
+</main>
+<script src="live.js"></script>
+</body></html>

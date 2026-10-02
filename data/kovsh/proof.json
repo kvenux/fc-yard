@@ -1,0 +1,14 @@
+{
+  "scope": "first four chapters; one coin, zero deaths; NOT full clear",
+  "frames": 115445,
+  "deaths": 0,
+  "coins": 1,
+  "expected": {
+    "state": "84fca36bb3fa404399e448f64225dadf9c7825e492cccf8c1839e6df651aaae5",
+    "ram": "1591924ed2d47e115e638621f22f52644c81a93ad06998769d162194e74add9e",
+    "video": null
+  },
+  "rom_sha256": "cb373b2fbdbb56d1a93338b246cb40f718b20e43fea43ae2668d464c97e73dba",
+  "core_sha256": "1de9f44035275157d38fcdb523d449102c78814cfc4aea5086be2a09241cae62",
+  "inputs_sha256": "fbb4ea111137a855e9bae4ad2a986a424696af364ed33cbe564aeb72a2ec9c7d"
+}

@@ -1,0 +1,17 @@
+{
+  "run": "native-20261001-193315",
+  "video": "native-20261001-193315/full-clear.mp4",
+  "strategyFrames": 77187,
+  "endingIdleFrames": 1800,
+  "videoFPS": 30,
+  "videoFrames": 39493,
+  "normalSpeed": true,
+  "audio": false,
+  "replayEqual": true,
+  "actual": {
+    "state": "f7fde02c098dd6938a7d32cfd174b6bec75d5bd49cf5d96fe5faac6f01b5a370",
+    "ram": "049751360fa4511046b7d8e81456c7d2d59b7360754e27c9ec5f50815700d4a8",
+    "video": "8bc3f65a67de76909bad3fac5558d355c83bfd72b72fa2f5c4e586dc756c23ee"
+  },
+  "videoSha256": "1813d21337e61d38a7528aa4ad2d4f5120dee1efba6cdb69b5a4a4c1f6783182"
+}

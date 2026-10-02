@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>魂斗罗 · GPT6一命通关</title><link rel="stylesheet" href="../live-theme.css"><link rel="stylesheet" href="replay.css"></head>
+<body><aside aria-label="回放控制区">
+<div class="panel-brand">FAMILY COMPUTER <span>魂斗罗 · 一命路线</span></div>
+<div class="control-field"><label for="chapter">关卡选择 <span>已核验回放</span></label><select id="chapter" disabled><option>正在载入…</option></select></div>
+<div class="button-pair"><button id="play" disabled>载入中</button><button id="restart" disabled>从头播放</button></div>
+<div class="control-field"><label for="speed">播放速度</label><select id="speed"><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option><option value="3">3×</option><option value="4">4×</option></select></div>
+<label class="toggle"><input id="sound" type="checkbox">游戏声音</label>
+<div class="control-field"><label for="seek">回放进度 <span id="elapsed">00:00 / 00:00</span></label><input id="seek" type="range" min="0" max="1000" value="0" aria-label="回放进度"></div>
+<div class="button-pair"><button id="back">后退 10 秒</button><button id="forward">前进 10 秒</button></div><div class="button-pair"><button id="capture">纯净画布</button><button id="fullscreen">全屏</button></div>
+<label class="toggle"><input id="loop" type="checkbox">通关后循环播放</label><div class="record-badge"><span class="led"></span>八关一命通关 · 已核验</div><p id="facts" role="status">读取通关记录…</p>
+<p class="note">完整通关按键回放。按钮百分比为最近 1 秒真实按键占比，按下反馈保留 350 毫秒；A 跳跃，B 射击。START 播放 / 暂停，SELECT 下一关。<br>勾选“游戏声音”开启音乐和音效。<a href="training.html">训练曲线 ↗</a> · <a href="live.html">手动模拟器 ↗</a><br><a id="record">完整按键记录</a> · <a id="audit">回放核验</a></p></aside>
+<main class="broadcast" aria-label="魂斗罗一命通关回放">
+<section class="arena"><video id="video" muted playsinline preload="auto" aria-label="魂斗罗完整通关画面"></video><div id="status-overlay">正在载入一命路线…</div><div class="corner" id="time">00:00</div><div class="screen-label">CONTRA <span>ONE LIFE RUN</span></div></section>
+<div class="stats"><div class="stat"><span>关卡</span><strong id="stage">— / 8</strong></div><div class="stat"><span>得分</span><strong id="score">0</strong></div><div class="stat"><span>死亡</span><strong id="deaths">0</strong></div><div class="stat"><span>武器</span><strong id="weapon">普通</strong></div></div>
+<section class="decision"><div class="controller" aria-label="红白机手柄，显示真实按键"><div class="dpad" aria-label="方向键"><div class="key up" data-bit="16"><span>↑</span></div><div class="key left" data-bit="64"><span>←</span></div><div class="key center"><span>·</span></div><div class="key down" data-bit="32"><span>↓</span></div><div class="key right" data-bit="128"><span>→</span></div></div>
+<button class="hardware-select" id="hardware-select" title="SELECT：下一关" aria-label="SELECT：下一关"></button><button class="hardware-start" id="hardware-start" title="START：播放或暂停" aria-label="START：播放或暂停"></button><div class="hardware-b" id="button-b" aria-label="B：射击"><span>0%</span></div><div class="fire-group"><div class="fire" id="button-a" aria-label="A：跳跃"><strong id="fire-prob">0%</strong></div></div></div></section>
+<h1 class="broadcast-title">魂斗罗 · GPT6一命通关</h1><section class="danmaku-card" aria-label="预设互动弹幕"><div id="danmaku-track"></div></section></main><script src="danmaku.js"></script><script src="replay.js"></script></body></html>

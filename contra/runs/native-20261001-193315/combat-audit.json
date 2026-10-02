@@ -1,0 +1,228 @@
+{
+  "run": "native-20261001-193315",
+  "replayEqual": true,
+  "frames": 77187,
+  "deaths": 0,
+  "finalScore": 707700,
+  "gunKills": 14,
+  "sniperKills": 9,
+  "gunKillsByStage": {
+    "1": 2,
+    "2": 0,
+    "3": 3,
+    "4": 0,
+    "5": 4,
+    "6": 1,
+    "7": 4,
+    "8": 0
+  },
+  "events": [
+    {
+      "frame": 1933,
+      "stage": 1,
+      "type": 6,
+      "kind": "sniper",
+      "x": 227,
+      "y": 100,
+      "scoreGain": 5
+    },
+    {
+      "frame": 2052,
+      "stage": 1,
+      "type": 6,
+      "kind": "sniper",
+      "x": 174,
+      "y": 105,
+      "scoreGain": 5
+    },
+    {
+      "frame": 2262,
+      "stage": 1,
+      "type": 6,
+      "kind": "sniper",
+      "x": 178,
+      "y": 73,
+      "scoreGain": 5
+    },
+    {
+      "frame": 2892,
+      "stage": 1,
+      "type": 7,
+      "kind": "gun",
+      "x": 195,
+      "y": 64,
+      "scoreGain": 5
+    },
+    {
+      "frame": 3036,
+      "stage": 1,
+      "type": 6,
+      "kind": "sniper",
+      "x": 231,
+      "y": 132,
+      "scoreGain": 5
+    },
+    {
+      "frame": 3624,
+      "stage": 1,
+      "type": 7,
+      "kind": "gun",
+      "x": 124,
+      "y": 128,
+      "scoreGain": 5
+    },
+    {
+      "frame": 14400,
+      "stage": 3,
+      "type": 4,
+      "kind": "gun",
+      "x": 240,
+      "y": 88,
+      "scoreGain": 3
+    },
+    {
+      "frame": 17204,
+      "stage": 3,
+      "type": 4,
+      "kind": "gun",
+      "x": 16,
+      "y": 126,
+      "scoreGain": 3
+    },
+    {
+      "frame": 17744,
+      "stage": 3,
+      "type": 7,
+      "kind": "gun",
+      "x": 224,
+      "y": 73,
+      "scoreGain": 5
+    },
+    {
+      "frame": 19301,
+      "stage": 3,
+      "type": 6,
+      "kind": "sniper",
+      "x": 32,
+      "y": 105,
+      "scoreGain": 5
+    },
+    {
+      "frame": 46053,
+      "stage": 5,
+      "type": 14,
+      "kind": "gun",
+      "x": 149,
+      "y": 128,
+      "scoreGain": 5
+    },
+    {
+      "frame": 46400,
+      "stage": 5,
+      "type": 14,
+      "kind": "gun",
+      "x": 170,
+      "y": 128,
+      "scoreGain": 5
+    },
+    {
+      "frame": 47005,
+      "stage": 5,
+      "type": 14,
+      "kind": "gun",
+      "x": 156,
+      "y": 128,
+      "scoreGain": 5
+    },
+    {
+      "frame": 48585,
+      "stage": 5,
+      "type": 6,
+      "kind": "sniper",
+      "x": 178,
+      "y": 132,
+      "scoreGain": 5
+    },
+    {
+      "frame": 52501,
+      "stage": 5,
+      "type": 14,
+      "kind": "gun",
+      "x": 152,
+      "y": 160,
+      "scoreGain": 5
+    },
+    {
+      "frame": 55918,
+      "stage": 6,
+      "type": 6,
+      "kind": "sniper",
+      "x": 228,
+      "y": 100,
+      "scoreGain": 5
+    },
+    {
+      "frame": 56362,
+      "stage": 6,
+      "type": 6,
+      "kind": "sniper",
+      "x": 239,
+      "y": 148,
+      "scoreGain": 5
+    },
+    {
+      "frame": 57949,
+      "stage": 6,
+      "type": 6,
+      "kind": "sniper",
+      "x": 208,
+      "y": 52,
+      "scoreGain": 5
+    },
+    {
+      "frame": 58925,
+      "stage": 6,
+      "type": 14,
+      "kind": "gun",
+      "x": 147,
+      "y": 96,
+      "scoreGain": 5
+    },
+    {
+      "frame": 69264,
+      "stage": 7,
+      "type": 14,
+      "kind": "gun",
+      "x": 240,
+      "y": 192,
+      "scoreGain": 5
+    },
+    {
+      "frame": 69573,
+      "stage": 7,
+      "type": 14,
+      "kind": "gun",
+      "x": 177,
+      "y": 192,
+      "scoreGain": 5
+    },
+    {
+      "frame": 69713,
+      "stage": 7,
+      "type": 14,
+      "kind": "gun",
+      "x": 198,
+      "y": 160,
+      "scoreGain": 5
+    },
+    {
+      "frame": 69836,
+      "stage": 7,
+      "type": 14,
+      "kind": "gun",
+      "x": 181,
+      "y": 160,
+      "scoreGain": 5
+    }
+  ]
+}

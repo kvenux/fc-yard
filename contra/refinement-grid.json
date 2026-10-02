@@ -1,0 +1,14 @@
+[
+  {"name":"jump-refine-24-fire4","jumpPeriod":24,"jumpHold":8,"firePeriod":4},
+  {"name":"jump-refine-30-fire4","jumpPeriod":30,"jumpHold":8,"firePeriod":4},
+  {"name":"jump-refine-36-fire4","jumpPeriod":36,"jumpHold":8,"firePeriod":4},
+  {"name":"jump-refine-40-fire4","jumpPeriod":40,"jumpHold":8,"firePeriod":4},
+  {"name":"jump-refine-50-fire4","jumpPeriod":50,"jumpHold":8,"firePeriod":4},
+  {"name":"jump-refine-60-fire4","jumpPeriod":60,"jumpHold":8,"firePeriod":4},
+  {"name":"jump-refine-24-fire8","jumpPeriod":24,"jumpHold":8,"firePeriod":8},
+  {"name":"jump-refine-30-fire8","jumpPeriod":30,"jumpHold":8,"firePeriod":8},
+  {"name":"jump-refine-36-fire8","jumpPeriod":36,"jumpHold":8,"firePeriod":8},
+  {"name":"jump-refine-40-fire8","jumpPeriod":40,"jumpHold":8,"firePeriod":8},
+  {"name":"jump-refine-50-fire8","jumpPeriod":50,"jumpHold":8,"firePeriod":8},
+  {"name":"jump-refine-60-fire8","jumpPeriod":60,"jumpHold":8,"firePeriod":8}
+]

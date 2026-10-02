@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>坦克大战 · AI 直播</title><link rel="stylesheet" href="live-theme.css"><link rel="stylesheet" href="live.css"></head>
+<body>
+<aside aria-label="直播控制区">
+<div class="control-field"><label for="level">关卡 <span id="run-kind">完整对局</span></label><div class="level-nav"><button id="level-prev" aria-label="上一关">←</button><select id="level"></select><button id="level-next" aria-label="下一关">→</button></div></div>
+<div class="button-pair"><button id="play" disabled>载入中</button><button id="restart" disabled>重开本关</button></div>
+<div class="control-field"><label for="seed">随机种子</label><input id="seed" type="number" min="0" max="4294967295" step="1" value="4004"></div>
+<button id="new-run" disabled>从第一关开始</button>
+<div class="control-field"><label for="speed">运行速度 <span id="actual-speed">—</span></label><select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></div>
+<div class="button-pair"><button id="step" disabled>单步一帧</button><button id="sound" disabled>声音：关</button></div>
+<div class="control-field"><label for="hold">策略文字最短保留</label><select id="hold"><option value="3">3 秒</option><option value="6" selected>6 秒</option><option value="10">10 秒</option></select></div>
+<label class="toggle"><input type="checkbox" id="show-probs" checked>显示按键概率</label>
+<label class="toggle"><input type="checkbox" id="auto-restart" checked>结算 20 秒后自动重开</label>
+<div class="button-pair"><button id="capture">纯净画布</button><button id="fullscreen">全屏</button></div>
+<button id="export">导出对局记录</button>
+<div class="session-readout" id="session-state" role="status">载入游戏与策略</div>
+<p class="note">浏览器复刻版 · 实时启发式策略。方向概率为真实动作的 softmax 展示映射，开火独立计算，并非模型置信度。开火需有目标，最多 5 次/游戏秒。提速版已验证种子 4004 全 35 关通关，正常游戏用时 44 分 36 秒；切关以初始生命开始。<br>直播采集：1080 × 1920；纯净画布按 Esc 返回。<a href="training/human-speed-v4/index.html" target="_blank">提速与训练记录 ↗</a></p>
+</aside>
+<main class="broadcast" aria-label="坦克大战 AI 直播">
+<section class="arena" aria-label="实时对局画面"><canvas id="game" width="624" height="624" aria-label="实时游戏画面"></canvas><div id="status-overlay" role="status">正在载入策略…</div><div class="corner" id="time">--:--:--</div></section>
+<div class="stats"><div class="stat"><span>关卡</span><strong id="stage">1 / 35</strong></div><div class="stat"><span>得分</span><strong id="score">0</strong></div><div class="stat"><span>生命</span><strong id="lives">3</strong></div><div class="stat"><span>基地</span><strong class="safe" id="base-state">完好</strong></div></div>
+<section class="decision"><div class="controller"><div class="dpad" aria-label="方向键"><div class="key up" data-direction="0"><b>↑</b><span></span></div><div class="key left" data-direction="1"><b>←</b><span></span></div><div class="key center" data-direction="4"><b>·</b><span></span></div><div class="key down" data-direction="2"><b>↓</b><span></span></div><div class="key right" data-direction="3"><b>→</b><span></span></div></div><button class="hardware-select" id="hardware-select" title="SELECT：下一关" aria-label="SELECT：下一关"></button><button class="hardware-start" id="hardware-start" title="START：暂停或继续" aria-label="START：暂停或继续"></button><div class="hardware-b" aria-label="B 键模拟概率，未分配实际动作"><span id="b-prob">—</span></div><div class="fire-group"><div class="fire" id="fire"><b>A</b><strong id="fire-prob">86%</strong></div><div class="fire-label">开火</div></div></div></section>
+<h1 class="broadcast-title">GPT-6 通关小霸王</h1><section class="strategy-card"><div class="strategy-line"><span class="phase-number" id="phase-number">01 / 03</span><span id="phase-time">00:00</span></div><div class="strategy-title" id="strategy-title">抢占中路</div><div class="strategy-copy" id="strategy-copy">先到基地正上方，建立拦截位置。</div><div class="phase-steps"><span>移动到中路</span><i>→</i><span>占住位置</span><i>→</i><span>拦截威胁</span></div><div class="phase-progress"><div id="phase-progress"></div></div></section>
+<section id="settlement" class="settlement" role="dialog" aria-labelledby="mvp-title" hidden>
+<div class="mvp-card"><div class="mvp-kicker">GPT-6 · 小霸王</div><div class="mvp-badge">★ MVP ★</div>
+<h2 id="mvp-title">全关通关</h2><div class="mvp-score-label">本局得分</div><strong id="mvp-score">0</strong>
+<div class="mvp-stats"><div><span>通过关卡</span><strong id="mvp-stages">0 / 35</strong></div><div><span>对局用时</span><strong id="mvp-time">00:00</strong></div><div><span>剩余生命</span><strong id="mvp-lives">0</strong></div><div><span>基地状态</span><strong id="mvp-base">完好</strong></div></div>
+<div class="mvp-countdown"><span id="mvp-countdown">20</span><span id="mvp-next"> 秒后从第一关再战</span></div>
+<div class="mvp-progress"><div id="mvp-progress"></div></div><button id="mvp-restart">立即再战</button></div></section></main>
+<iframe id="engine" src="live-engine.html" title="游戏运行引擎" aria-hidden="true" tabindex="-1"></iframe>
+<script src="controller-feedback.js"></script><script src="strategy-narrative.js"></script><script src="live.js"></script>
+</body></html>

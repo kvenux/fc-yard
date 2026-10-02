@@ -1,0 +1,541 @@
+{
+  "scope": "history_based_one_life_optimization",
+  "goal": "one_life_full_game_clear",
+  "full_game_clear_verified": false,
+  "first_failure": {
+    "run": "two-life-001",
+    "between_frames": [
+      54000,
+      54600
+    ],
+    "chapter": 3,
+    "cause": "timer_exhausted",
+    "hp_before": 46,
+    "lives_before": 2,
+    "lives_after": 1
+  },
+  "changes": {
+    "inventory": "Bound slots by RAM 0x12971; stale slots were being interpreted as items",
+    "selection": "Read cursor at RAM 0x12973, not unrelated 0x1297c",
+    "facing": "Validated flip bit 0x20 at RAM 0x114cd using alternating input and neutral/attack probes",
+    "execution": "AV video disabled, read-only RAM views, no screenshots, no video copies",
+    "scoring": "Stop any life loss; compare room transition, health, damage, and time",
+    "rollback": "Serialize PGM nCyclesDone[3]; fixed core isolated to KOVSH, no change to frame execution or game rules"
+  },
+  "cohorts": [
+    {
+      "name": "bamboo-trees-001",
+      "trials": 8,
+      "seconds": 4.242103099997621,
+      "aggregate_fps": 3037.172764614614,
+      "best_enemy_damage": 109,
+      "room_exits": 0
+    },
+    {
+      "name": "bamboo-trees-002",
+      "trials": 8,
+      "seconds": 6.063467400002992,
+      "aggregate_fps": 2971.237216512636,
+      "best_enemy_damage": 329,
+      "room_exits": 0
+    },
+    {
+      "name": "bamboo-trees-003",
+      "trials": 9,
+      "seconds": 7.155441599999904,
+      "aggregate_fps": 2802.342765259976,
+      "best_enemy_damage": 329,
+      "room_exits": 0
+    },
+    {
+      "name": "bamboo-mechanisms-009",
+      "trials": 8,
+      "seconds": 6.949892499993439,
+      "aggregate_fps": 2507.0891384314864,
+      "simulated_frames": 17424,
+      "room_exits": 0
+    }
+  ],
+  "native_item_evidence": {
+    "run": "menu-active-calibration-2.json",
+    "consumed_item_ids": [
+      7,
+      4
+    ],
+    "hp_unchanged": 128,
+    "video_frames_copied": 0,
+    "selected_cursor_ram": "0x12973"
+  },
+  "native_command_calibration": {
+    "report": "bamboo-command-calibration-001/report.json",
+    "commands": 10,
+    "seconds": 5.552499600002193,
+    "headless": true,
+    "observations": "qcf dealt 192, normal 132; dash 76 and dd 87 with unchanged HP over 1800 frames. Hold A failed after 572 frames with only 4 damage."
+  },
+  "sequential_mpc_rounds": [
+    {
+      "directory": "one-life-bamboo-001",
+      "hypothesis": "Headless cold-prefix audit and named tactics replace parameter grid",
+      "frames": 7087,
+      "seconds": 52.87279700000363,
+      "score_gain": 11800,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 7,
+      "cold_prefix_verified": true,
+      "independent_replay_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-practice-002",
+      "hypothesis": "Include calibrated qcf sweep and deadline-aware health weighting",
+      "frames": 7060,
+      "seconds": 56.84339359999285,
+      "score_gain": 17000,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 106,
+      "cold_prefix_verified": false,
+      "independent_replay_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-practice-003",
+      "hypothesis": "Reward finishing enemies and room transitions; extend prediction horizon",
+      "frames": 7037,
+      "seconds": 86.91902700001083,
+      "score_gain": 16000,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "cold_prefix_verified": false,
+      "independent_replay_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-practice-004",
+      "hypothesis": "Remove navigational lookahead to test explicit RAM route progression",
+      "frames": 7081,
+      "seconds": 40.085226399998646,
+      "score_gain": 9900,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 40,
+      "cold_prefix_verified": false,
+      "independent_replay_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-fixed-005",
+      "hypothesis": "Use verified complete PGM snapshots for native forecasts",
+      "frames": 7037,
+      "seconds": 85.98399320000317,
+      "score_gain": 16000,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "cold_prefix_verified": false,
+      "independent_replay_equal": true,
+      "core": "PGM snapshot fix",
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-fast-011",
+      "hypothesis": "Use range-gated fast chase, conditional gate attack; room still timed out",
+      "frames": 7045,
+      "seconds": 131.05359070000122,
+      "score_gain": 20300,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "independent_replay_equal": true,
+      "cold_prefix_verified": false,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-entry-012",
+      "hypothesis": "Start earlier and infer upper exit lane from RAM; room still timed out",
+      "frames": 7311,
+      "seconds": 174.7534280999971,
+      "score_gain": 19900,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "independent_replay_equal": true,
+      "cold_prefix_verified": false,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-cold-014",
+      "hypothesis": "Validated from continuous boot; health-budget tradeoff still timed out",
+      "frames": 7063,
+      "seconds": 50.0176494000043,
+      "score_gain": 10400,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 43,
+      "independent_replay_equal": true,
+      "cold_prefix_verified": true,
+      "forecast_native_frames": 258120,
+      "forecast_rollouts": 1434,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-adaptive-015",
+      "hypothesis": "Shorten actuation near weak grounded enemies; clear waves with HP55, exit still late",
+      "frames": 7037,
+      "seconds": 100.26758300000802,
+      "score_gain": 20500,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "independent_replay_equal": true,
+      "cold_prefix_verified": false,
+      "forecast_native_frames": 532080,
+      "forecast_rollouts": 2956,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-intercept-018",
+      "hypothesis": "Add airborne pursuit and diagonal exit from earlier entry; still timed out",
+      "frames": 7369,
+      "seconds": 131.02297600000747,
+      "score_gain": 11500,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 8,
+      "independent_replay_equal": true,
+      "cold_prefix_verified": false,
+      "forecast_native_frames": 616860,
+      "forecast_rollouts": 3427,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-combat-020",
+      "hypothesis": "Compare stateful strike alignment and target locks at the same start",
+      "frames": 7036,
+      "seconds": 437.13966020000225,
+      "score_gain": 9800,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 56,
+      "hp_remaining": 0,
+      "forecast_native_frames": 762120,
+      "forecast_rollouts": 4234,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "cold_prefix_verified": false,
+      "video": null
+    },
+    {
+      "directory": "one-life-bamboo-tempo-021",
+      "hypothesis": "Reward earlier actual damage and kills; do not reward waiting in an empty room",
+      "frames": 7036,
+      "seconds": 404.9821023000113,
+      "score_gain": 19900,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 0,
+      "forecast_native_frames": 603000,
+      "forecast_rollouts": 3350,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "cold_prefix_verified": false,
+      "video": null
+    },
+    {
+      "directory": "bamboo-tail-context-022",
+      "hypothesis": "Gate candidate mechanisms by contact state and extend native prediction to 300 frames",
+      "frames": 3436,
+      "seconds": 165.43607959999645,
+      "score_gain": 7400,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 0,
+      "forecast_native_frames": 277500,
+      "forecast_rollouts": 925,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "cold_prefix_verified": false,
+      "video": null
+    },
+    {
+      "directory": "one-life-next-room-026",
+      "hypothesis": "Continue after the corrected exit using the trained RAM policy",
+      "frames": 1619,
+      "seconds": 83.65968880000582,
+      "score_gain": 4400,
+      "termination": "room_exit",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 57,
+      "forecast_native_frames": 131940,
+      "forecast_rollouts": 733,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "cold_prefix_verified": false,
+      "video": null
+    },
+    {
+      "directory": "one-life-cave-027",
+      "hypothesis": "Train the cave combat path, stop before adopting room-scoped navigation",
+      "frames": 4740,
+      "seconds": 320.947368299996,
+      "score_gain": 8000,
+      "termination": "stop_request",
+      "remaining_enemy_hp": 4,
+      "hp_remaining": 57,
+      "forecast_native_frames": 445680,
+      "forecast_rollouts": 2476,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-cave-scoped-028",
+      "hypothesis": "Limit bamboo-specific navigation to its actual room",
+      "frames": 1993,
+      "seconds": 30.885796400005347,
+      "score_gain": 1000,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 0,
+      "forecast_native_frames": 55980,
+      "forecast_rollouts": 311,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-cave-persistent-029",
+      "hypothesis": "Compare longer native combo commitments; retain the faster original path",
+      "frames": 2094,
+      "seconds": 33.73236399999587,
+      "score_gain": 1000,
+      "termination": "life_lost",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 0,
+      "forecast_native_frames": 65520,
+      "forecast_rollouts": 364,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-corridor-038",
+      "hypothesis": "Continue after the RAM-verified cave return doorway",
+      "frames": 2881,
+      "seconds": 210.5234783999913,
+      "score_gain": 6100,
+      "termination": "room_exit",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 57,
+      "forecast_native_frames": 282780,
+      "forecast_rollouts": 1571,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-chapter4-final-040",
+      "hypothesis": "Complete the remaining fourth chapter with the established native policy",
+      "frames": 15092,
+      "seconds": 764.2531811999943,
+      "score_gain": 303100,
+      "termination": "chapter_exit",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 27,
+      "forecast_native_frames": 1306440,
+      "forecast_rollouts": 7258,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "video": null
+    },
+    {
+      "directory": "one-life-chapter4-boss-priority-043",
+      "hypothesis": "Suppress recurring-add kill rewards and compare boss-directed attack mechanisms",
+      "frames": 6788,
+      "seconds": 350.50078879999637,
+      "score_gain": 479400,
+      "termination": "chapter_exit",
+      "remaining_enemy_hp": 0,
+      "hp_remaining": 55,
+      "forecast_native_frames": 707760,
+      "forecast_rollouts": 3932,
+      "independent_replay_equal": true,
+      "trajectory_equal": true,
+      "video": null
+    }
+  ],
+  "rollback_audit": {
+    "scope": "bamboo checkpoint from 86890 uninterrupted boot frames, next 600 native inputs",
+    "fixed_report": "runs/kovsh/state-audit-fixed-002/report.json",
+    "baseline_report": "runs/kovsh/state-audit-baseline-002/report.json",
+    "fixed_first_ram_divergence_frame": null,
+    "baseline_first_ram_divergence_frame": 25,
+    "fixed_final_state_equal": true,
+    "baseline_final_state_equal": false,
+    "both_prefix_ram_equal": true,
+    "video_enabled": false,
+    "full_game_clear_verified": false
+  },
+  "native_searches": [
+    {
+      "name": "bamboo-room-search-010",
+      "rollouts": 1313,
+      "native_frames": 236340,
+      "scope": "local_native_branches_not_full_games",
+      "state_replay_equal": true,
+      "room_exit": false,
+      "stop_reason": "no_surviving_branch",
+      "game_images_read": false
+    },
+    {
+      "name": "bamboo-full-room-search-013",
+      "rollouts": 6468,
+      "native_frames": 1164240,
+      "scope": "local_native_branches_not_full_games",
+      "state_replay_equal": true,
+      "room_exit": false,
+      "stop_reason": "no_surviving_branch",
+      "game_images_read": false
+    }
+  ],
+  "next_hypothesis": "Continue the live cold-start next-chapter policy; inspect the first failure before changing any mechanism.",
+  "native_exit_calibration": {
+    "lane_only": "bamboo-exit-lanes-016/report.json",
+    "input_mechanisms": "bamboo-exit-mechanisms-017b/report.json",
+    "trials": 14,
+    "room_exits": 0,
+    "result": "At timer 0, reaching x2006 by diagonal movement did not avert death; must finish and trigger exit earlier",
+    "all_headless": true
+  },
+  "verified_bamboo_exit": {
+    "scope": "first_bamboo_section_exit",
+    "verified": true,
+    "continuous_poweron_frames": 93629,
+    "bamboo_policy_frames": 6739,
+    "frames_to_last_enemy_clear": 6496,
+    "frames_clear_to_exit": 243,
+    "hp_remaining": 57,
+    "lives_remaining": 2,
+    "coin_edges": 1,
+    "deaths": [],
+    "native_checkpoint_equal": true,
+    "independent_replay_equal": true,
+    "terminal_ram_state_equal": true,
+    "full_game_clear_verified": false,
+    "sources": [
+      "one-life-bamboo-tempo-021",
+      "bamboo-exit-recheck-024/diagonal_down_174",
+      "one-life-bamboo-exit-cold-025"
+    ]
+  },
+  "combat_latency_audit": {
+    "one-life-bamboo-adaptive-015": {
+      "chasing": 2890,
+      "attack_chasing": 789,
+      "hit_frames": 138,
+      "damage": 600,
+      "kills": 36,
+      "close_ground_enemy": 2397,
+      "attack_close_ground_enemy": 1003,
+      "close_airborne_enemy": 292,
+      "attack_close_airborne_enemy": 117,
+      "last_empty_frame": 6798,
+      "empty_room": 1458,
+      "attack_empty_room": 4
+    },
+    "one-life-bamboo-tempo-021": {
+      "chasing": 2312,
+      "attack_chasing": 735,
+      "hit_frames": 140,
+      "damage": 584,
+      "kills": 36,
+      "close_ground_enemy": 2368,
+      "attack_close_ground_enemy": 967,
+      "close_airborne_enemy": 213,
+      "attack_close_airborne_enemy": 81,
+      "last_empty_frame": 6496,
+      "empty_room": 2143,
+      "attack_empty_room": 4
+    }
+  },
+  "combat_mechanism_probe": {
+    "directory": "bamboo-combat-probe-019",
+    "trials": 36,
+    "native_frames": 12960,
+    "seconds": 8.375321599989547
+  },
+  "exit_recheck": {
+    "directory": "bamboo-exit-recheck-024",
+    "trials": 6,
+    "successful_modes": [
+      "diagonal_down_174",
+      "diagonal_down_200",
+      "down_then_right_200",
+      "left_detour_174"
+    ],
+    "failed_modes": [
+      "right_continuous",
+      "diagonal_up_144"
+    ]
+  },
+  "exit_cause_correction": "Earlier probes started too late. At the earlier-clear checkpoint, moving down before going right passes; the upward exit rule was wrong.",
+  "verified_fourth_stage_prefix": {
+    "scope": "bamboo_rope_cave_prefix",
+    "verified": true,
+    "frames": 100376,
+    "coins": 1,
+    "deaths": [],
+    "hp": 57,
+    "lives": 2,
+    "native_checkpoint_equal": true,
+    "independent_replay_equal": true,
+    "terminal_ram_state_equal": true,
+    "full_game_clear_verified": false
+  },
+  "cave_exit": {
+    "reference": "cave-original-navigation-036.json",
+    "reference_terminal_ram_equal": true,
+    "trial": "cave-door-037/door_865_136",
+    "frames": 328,
+    "hp_remaining": 57,
+    "route": "Return to x 855..875, then move up to ground_y 136; wait for native room transition",
+    "movement_probes": [
+      "cave-exit-navigation-030",
+      "cave-walkable-lanes-031",
+      "cave-narrow-gap-032",
+      "cave-return-route-033",
+      "cave-upper-return-035"
+    ],
+    "failed_script_probe": "cave-upper-return-034"
+  },
+  "fourth_chapter_comparison": {
+    "old_run": "one-life-chapter4-final-040",
+    "new_run": "one-life-chapter4-boss-priority-043",
+    "shared_input_frames": 5400,
+    "old_frames": 15092,
+    "new_frames": 12188,
+    "frames_saved": 2904,
+    "old_hp": 27,
+    "new_hp": 55,
+    "both_local_replays_equal": true,
+    "cold_best_prefix": "one-life-next-chapter-cold-045",
+    "full_game_clear_verified": false
+  },
+  "verified_fourth_chapter": {
+    "scope": "fourth_chapter_exit",
+    "full_game_clear_verified": false,
+    "baseline": {
+      "cold_frames": 118349,
+      "coins": 1,
+      "deaths": [],
+      "hp": 27,
+      "native_checkpoint_equal": true,
+      "independent_whole_prefix_replay_equal": true
+    },
+    "best": {
+      "cold_frames": 115445,
+      "coins": 1,
+      "deaths": [],
+      "hp": 55,
+      "native_checkpoint_equal": true,
+      "cold_ram_equal": true,
+      "independent_boss_replay_equal": true,
+      "whole_extended_replay_status": "pending until ongoing next-chapter run finishes"
+    },
+    "frames_saved": 2904,
+    "hp_improvement": 28,
+    "verified": true
+  }
+}

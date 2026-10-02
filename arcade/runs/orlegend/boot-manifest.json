@@ -1,0 +1,41 @@
+{
+  "core_sha256": "d5e64c6a6affe04b802a8448340c2acbd28a31e45d4c1bfc99b1699037b11b03",
+  "rom_sha256": "acdc632a0b67fead83ae1ca96d964b4344d2590b56c31e3b341da3381f3f58b3",
+  "frontend_sha256": "7a22c0945879dd4d4890484a04b018b7a0fb11e24110f36a9ee9e9b5ac37cc87",
+  "deterministic": true,
+  "initial_frames": 2584,
+  "observation": {
+    "hp": 72,
+    "lives": 2,
+    "x": 108,
+    "y": 190,
+    "stage_raw": 0,
+    "stage_byte": 0,
+    "scene_byte": 0,
+    "enemies": [
+      {
+        "slot": 0,
+        "x": 360,
+        "y": 150,
+        "hp": 20
+      },
+      {
+        "slot": 1,
+        "x": 330,
+        "y": 190,
+        "hp": 20
+      },
+      {
+        "slot": 2,
+        "x": 390,
+        "y": 240,
+        "hp": 20
+      }
+    ]
+  },
+  "expected": {
+    "state": "bdf7f6d841f21ee4db7b6e42d6ab1c937fa723a16703d2717342976a36ce5485",
+    "ram": "7aa3716d375068f4b207210a15c960cd6b99b9d8f99dcf4bd4ec0cf57b9d29b8",
+    "video": "d07368499bd5fae544738057ee5ec9060bbe165bd8751b64e0a30803b468c908"
+  }
+}

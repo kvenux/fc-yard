@@ -1,0 +1,33 @@
+{
+  "equal": true,
+  "death_count_equal": true,
+  "deaths": 123,
+  "chapter_deaths": {
+    "2": 3,
+    "3": 7,
+    "4": 11,
+    "5": 14,
+    "6": 11,
+    "7": 20,
+    "8": 57
+  },
+  "frames": 443798,
+  "start": "poweron",
+  "restores": 0,
+  "after": {
+    "hp": 50,
+    "lives": 1,
+    "x": 1361,
+    "y": 173,
+    "stage_raw": 2051,
+    "stage_byte": 8,
+    "scene_byte": 3,
+    "enemies": []
+  },
+  "fingerprint": {
+    "state": "52baf9adc1095748828360dee301b7b5cb03613667f06ce2e8f1e1373d0b9371",
+    "ram": "15bd6b1e9702367296203535fc0baf430e252945d3f0c488ff804e90ee7fcbca",
+    "video": "8b04628d65a23cf03846c3abb083fed89a01b937e6245080960fd87ce16d9e3f"
+  },
+  "wall_seconds": 229.68610540000373
+}

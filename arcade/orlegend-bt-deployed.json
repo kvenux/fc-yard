@@ -1,0 +1,372 @@
+{
+  "version": 1,
+  "name": "accepted-full-game",
+  "parameters": {
+    "period": 4,
+    "distance": 32,
+    "align": 10,
+    "jump": 0,
+    "rush": 30,
+    "push_statue": true,
+    "allow_continue": true,
+    "scenes": {
+      "256": {
+        "nav_y": 140
+      },
+      "0": {
+        "distance": 56,
+        "align": 14,
+        "jump": 120,
+        "rush": 0
+      },
+      "1": {
+        "distance": 56,
+        "align": 14,
+        "jump": 120,
+        "rush": 0
+      },
+      "2": {
+        "distance": 56,
+        "align": 14,
+        "jump": 120,
+        "rush": 0
+      },
+      "3": {
+        "distance": 56,
+        "align": 14,
+        "jump": 120,
+        "rush": 0
+      }
+    }
+  },
+  "tree": {
+    "type": "selector",
+    "children": [
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "boss_close",
+            "params": {
+              "scenes": [
+                3
+              ],
+              "min_hp": 100,
+              "dx": 64,
+              "dy": 20
+            }
+          },
+          {
+            "type": "action",
+            "name": "evade_vertical",
+            "params": {
+              "hold": 8,
+              "displacement": 24,
+              "cooldown": 90,
+              "min_y": 90,
+              "max_y": 220
+            }
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "boss_close",
+            "params": {
+              "scenes": [
+                257
+              ],
+              "min_hp": 100,
+              "dx": 96,
+              "dy": 24
+            }
+          },
+          {
+            "type": "action",
+            "name": "evade_vertical",
+            "params": {
+              "hold": 8,
+              "displacement": 24,
+              "cooldown": 90,
+              "min_y": 370,
+              "max_y": 520
+            }
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "boss_close",
+            "params": {
+              "scenes": [
+                513,
+                514,
+                516
+              ],
+              "min_hp": 100,
+              "dx": 64,
+              "dy": 20
+            }
+          },
+          {
+            "type": "action",
+            "name": "evade_vertical",
+            "params": {
+              "hold": 8,
+              "displacement": 24,
+              "cooldown": 90,
+              "min_y": 80,
+              "max_y": 330
+            }
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "boss_close",
+            "params": {
+              "scenes": [
+                769,
+                770
+              ],
+              "min_hp": 16,
+              "dx": 64,
+              "dy": 20
+            }
+          },
+          {
+            "type": "action",
+            "name": "evade_vertical",
+            "params": {
+              "hold": 16,
+              "min_hp": 16,
+              "displacement": 24,
+              "cooldown": 90,
+              "min_y": 80,
+              "max_y": 300
+            }
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "statue"
+            }
+          },
+          {
+            "type": "action",
+            "name": "statue"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "rat_exit"
+            }
+          },
+          {
+            "type": "action",
+            "name": "rat_exit"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "tree"
+            }
+          },
+          {
+            "type": "action",
+            "name": "tree"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "maze_exit"
+            }
+          },
+          {
+            "type": "action",
+            "name": "maze_exit"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "spider"
+            }
+          },
+          {
+            "type": "action",
+            "name": "spider"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "cave"
+            }
+          },
+          {
+            "type": "action",
+            "name": "cave"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "return_left"
+            }
+          },
+          {
+            "type": "action",
+            "name": "return_left"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "maze_waypoints"
+            }
+          },
+          {
+            "type": "action",
+            "name": "maze_waypoints"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "door"
+            }
+          },
+          {
+            "type": "action",
+            "name": "door"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "bridge"
+            }
+          },
+          {
+            "type": "action",
+            "name": "bridge"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "plain_exit"
+            }
+          },
+          {
+            "type": "action",
+            "name": "plain_exit"
+          }
+        ]
+      },
+      {
+        "type": "sequence",
+        "children": [
+          {
+            "type": "condition",
+            "name": "route",
+            "params": {
+              "name": "nav_y"
+            }
+          },
+          {
+            "type": "action",
+            "name": "nav_y"
+          }
+        ]
+      },
+      {
+        "type": "action",
+        "name": "combat"
+      }
+    ]
+  },
+  "validation": {
+    "baseline": "arcade\\runs\\orlegend\\life-saving-cold-01",
+    "candidate": "arcade\\runs\\orlegend\\bt\\full-v4-screen-01\\64-16",
+    "baseline_deaths": 150,
+    "candidate_deaths": 123,
+    "accepted": true,
+    "scope": "full_game",
+    "reason": "lower full-game deaths with independent replay and ending review",
+    "continues": 61,
+    "lives_used_including_survivor": 124,
+    "visual_ending_verified": true,
+    "state_and_ram_replay_equal": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "verified": false,
+  "romSha256": "",
+  "coreSha256": "",
+  "bootFrames": 120,
+  "startSequence": [{ "mask": 8, "frames": 1 }, { "mask": 0, "frames": 180 }],
+  "fields": {
+    "stage": { "address": null },
+    "progress": { "address": null, "bytes": 2 },
+    "lives": { "address": null },
+    "x": { "address": null },
+    "y": { "address": null },
+    "status": { "address": null }
+  },
+  "playing": { "field": "status", "values": [] },
+  "terminal": {
+    "victory": { "field": "status", "values": [] },
+    "gameOver": { "field": "status", "values": [] }
+  },
+  "stageOrder": [],
+  "stageModes": {},
+  "evidence": { "play": "", "death": "", "stageTransition": "", "gameOver": "", "victory": "" }
+}

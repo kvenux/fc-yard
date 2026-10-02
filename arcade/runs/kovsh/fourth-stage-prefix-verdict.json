@@ -1,0 +1,13 @@
+{
+  "scope": "bamboo_rope_cave_prefix",
+  "verified": true,
+  "frames": 100376,
+  "coins": 1,
+  "deaths": [],
+  "hp": 57,
+  "lives": 2,
+  "native_checkpoint_equal": true,
+  "independent_replay_equal": true,
+  "terminal_ram_state_equal": true,
+  "full_game_clear_verified": false
+}

@@ -1,0 +1,11 @@
+{
+  "name": "jump-refine-30-fire8",
+  "firePeriod": 8,
+  "fireHold": 3,
+  "jumpPeriod": 30,
+  "jumpHold": 8,
+  "stallFrames": 45,
+  "sweepPeriod": 120,
+  "verticalCenter": 128,
+  "stagePolicies": {}
+}

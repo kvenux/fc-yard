@@ -1,0 +1,86 @@
+{
+  "environment": "browser reimplementation; privileged state; seeded random; max 18000 frames per run",
+  "errors": [],
+  "runs": [
+    {
+      "seed": 1,
+      "frames": 8146,
+      "phase": "gameover_tally",
+      "stage": 2,
+      "score": 2200,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 20,
+      "player": {
+        "x": 113,
+        "y": 48
+      },
+      "reason": "拦截低位敌人 / 躲避子弹",
+      "kills": 0
+    },
+    {
+      "seed": 2,
+      "frames": 7153,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 1800,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 3,
+      "player": {
+        "x": 113,
+        "y": 104
+      },
+      "reason": "拦截低位敌人 / 躲避子弹",
+      "kills": 17
+    },
+    {
+      "seed": 3,
+      "frames": 4944,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 600,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 14,
+      "player": {
+        "x": 200,
+        "y": 184
+      },
+      "reason": "拦截低位敌人 / 躲避子弹",
+      "kills": 6
+    },
+    {
+      "seed": 4,
+      "frames": 8965,
+      "phase": "gameover_tally",
+      "stage": 2,
+      "score": 3300,
+      "lives": 2,
+      "eagle": false,
+      "remaining": 15,
+      "player": {
+        "x": 89,
+        "y": 216
+      },
+      "reason": "保护基地：停止射击",
+      "kills": 5
+    },
+    {
+      "seed": 5,
+      "frames": 4198,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 900,
+      "lives": 2,
+      "eagle": false,
+      "remaining": 11,
+      "player": {
+        "x": 100,
+        "y": 176
+      },
+      "reason": "拦截低位敌人 / 躲避子弹",
+      "kills": 9
+    }
+  ]
+}

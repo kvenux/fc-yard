@@ -1,0 +1,674 @@
+[
+  {
+    "frame": 2835,
+    "text": "打个老游戏而已 别急着封神",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 0,
+      "frame": 2835,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-1",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 8
+  },
+  {
+    "frame": 2985,
+    "text": "我连这个老游戏都没打明白啊",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 0,
+      "frame": 2835,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-1",
+    "lane": 2,
+    "durationFrames": 480,
+    "id": 10
+  },
+  {
+    "frame": 3708,
+    "text": "会打魂斗罗 不等于会过日子",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 0,
+      "frame": 3708,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-2",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 12
+  },
+  {
+    "frame": 3858,
+    "text": "放心 我过日子也没打明白",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 0,
+      "frame": 3708,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-2",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 13
+  },
+  {
+    "frame": 6397,
+    "text": "我先找找它有什么不会的",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 1,
+      "frame": 6397,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-3",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 23
+  },
+  {
+    "frame": 6547,
+    "text": "以前看高手是学技术 现在是找漏洞",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 1,
+      "frame": 6397,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-3",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 24
+  },
+  {
+    "frame": 7757,
+    "text": "它练游戏 我练怎么不破防",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 1,
+      "frame": 7757,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-4",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 29
+  },
+  {
+    "frame": 7907,
+    "text": "本来来放松的 怎么还看焦虑了",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 1,
+      "frame": 7757,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-4",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 30
+  },
+  {
+    "frame": 9116,
+    "text": "AI也就这样 有本事不许看游戏状态",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 1,
+      "frame": 9116,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-5",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 35
+  },
+  {
+    "frame": 9266,
+    "text": "这句吐槽有道理 条件得说清楚",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 1,
+      "frame": 9116,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-5",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 36
+  },
+  {
+    "frame": 13474,
+    "text": "别急 刚才说了它是搜索加回放",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 2,
+      "frame": 13474,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-6",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 52
+  },
+  {
+    "frame": 13624,
+    "text": "那也不耽误我打不过这条路线啊",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 2,
+      "frame": 13474,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-6",
+    "lane": 2,
+    "durationFrames": 480,
+    "id": 53
+  },
+  {
+    "frame": 16850,
+    "text": "这不是眼睛看画面 是能读游戏数据",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 2,
+      "frame": 16850,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-7",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 63
+  },
+  {
+    "frame": 17000,
+    "text": "知道它怎么做 心里倒踏实一点",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 2,
+      "frame": 16850,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-7",
+    "lane": 2,
+    "durationFrames": 480,
+    "id": 64
+  },
+  {
+    "frame": 20225,
+    "text": "我练了几年 它这套到底练了多久",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 2,
+      "frame": 20225,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-8",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 76
+  },
+  {
+    "frame": 20375,
+    "text": "最扎心的是我现在还得向它学",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 2,
+      "frame": 20225,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-8",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 77
+  },
+  {
+    "frame": 27903,
+    "text": "它能反复试动作 我只能赌一次",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 3,
+      "frame": 27903,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-9",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 94
+  },
+  {
+    "frame": 28053,
+    "text": "羡慕的不是枪法 是试错条件",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 3,
+      "frame": 27903,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-9",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 95
+  },
+  {
+    "frame": 34243,
+    "text": "以前说熟能生巧 现在有点心虚",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 3,
+      "frame": 34243,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-10",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 109
+  },
+  {
+    "frame": 34393,
+    "text": "我辛苦练的东西 会不会越来越不值钱",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 3,
+      "frame": 34243,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-10",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 110
+  },
+  {
+    "frame": 40582,
+    "text": "看它打游戏 怎么想起明天上班了",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 3,
+      "frame": 40582,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-11",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 126
+  },
+  {
+    "frame": 40732,
+    "text": "下班想躲开AI 结果又看见AI",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 3,
+      "frame": 40582,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-11",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 127
+  },
+  {
+    "frame": 47744,
+    "text": "游戏里可以暂停 变化可不等我",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 4,
+      "frame": 47744,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-12",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 147
+  },
+  {
+    "frame": 47894,
+    "text": "先别把焦虑也开成三倍速",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 4,
+      "frame": 47744,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-12",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 149
+  },
+  {
+    "frame": 50347,
+    "text": "它一命通关 我一命打工",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 4,
+      "frame": 50347,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-13",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 156
+  },
+  {
+    "frame": 50497,
+    "text": "这弹幕的伤害比炮台还高",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 4,
+      "frame": 50347,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-13",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 157
+  },
+  {
+    "frame": 57391,
+    "text": "我不怕它会 怕的是以后都觉得理所当然",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 5,
+      "frame": 57391,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-15",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 180
+  },
+  {
+    "frame": 57541,
+    "text": "今天还是惊叹 明天就成基本要求了",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 5,
+      "frame": 57391,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-15",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 182
+  },
+  {
+    "frame": 61913,
+    "text": "AI也就这样吧 让我也读RAM再试试",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 5,
+      "frame": 61913,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-17",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 197
+  },
+  {
+    "frame": 62063,
+    "text": "好 你负责读 我负责不按错",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 5,
+      "frame": 61913,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-17",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 198
+  },
+  {
+    "frame": 65912,
+    "text": "不是怕机器厉害 是怕自己没位置",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 6,
+      "frame": 65912,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-18",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 209
+  },
+  {
+    "frame": 66062,
+    "text": "看个游戏 怎么聊到心里去了",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 6,
+      "frame": 65912,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-18",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 210
+  },
+  {
+    "frame": 67851,
+    "text": "我最怕那句：这么简单你怎么不会",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 6,
+      "frame": 67851,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-19",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 216
+  },
+  {
+    "frame": 68001,
+    "text": "别拿机器的试错条件要求每个人啊",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 6,
+      "frame": 67851,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-19",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 218
+  },
+  {
+    "frame": 69789,
+    "text": "它会的越多 我越想知道自己擅长啥",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 6,
+      "frame": 69789,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-20",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 224
+  },
+  {
+    "frame": 69939,
+    "text": "先把这局看完 别急着给自己打分",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 6,
+      "frame": 69789,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-20",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 225
+  },
+  {
+    "frame": 73188,
+    "text": "有点想学它 又有点不服它",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 7,
+      "frame": 73188,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-21",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 238
+  },
+  {
+    "frame": 73338,
+    "text": "这两种感觉可以一起有",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 7,
+      "frame": 73188,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-21",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 239
+  },
+  {
+    "frame": 74549,
+    "text": "等会真通了 我还怎么吐槽",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 7,
+      "frame": 74549,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-22",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 243
+  },
+  {
+    "frame": 74699,
+    "text": "照样吐槽 喜欢看不等于必须服气",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 7,
+      "frame": 74549,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-22",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 244
+  },
+  {
+    "frame": 75910,
+    "text": "我希望它替我干活 不是替我找焦虑",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 7,
+      "frame": 75910,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": false,
+    "replyGroup": "ai-23",
+    "lane": 0,
+    "durationFrames": 480,
+    "id": 249
+  },
+  {
+    "frame": 76060,
+    "text": "至少今晚 手柄还可以自己拿起来",
+    "source": {
+      "kind": "authored_ai_commentary",
+      "stage": 7,
+      "frame": 75910,
+      "notViewerQuote": true
+    },
+    "category": "ai",
+    "accent": true,
+    "replyGroup": "ai-23",
+    "lane": 1,
+    "durationFrames": 480,
+    "id": 250
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "game": "kovsh",
+  "frames": 115445,
+  "deaths": 0,
+  "coins": 1,
+  "equal": {
+    "state": true,
+    "ram": true
+  },
+  "passed": true,
+  "actual": {
+    "state": "84fca36bb3fa404399e448f64225dadf9c7825e492cccf8c1839e6df651aaae5",
+    "ram": "1591924ed2d47e115e638621f22f52644c81a93ad06998769d162194e74add9e",
+    "video": null
+  },
+  "scope": "first four chapters; one coin, zero deaths; NOT full clear",
+  "restores": 0,
+  "seconds": 62.04
+}

@@ -1,0 +1,31 @@
+{
+  "scope": "full_game_verified",
+  "before_deaths": 150,
+  "after_deaths": 123,
+  "saved": 27,
+  "reduction_percent": 18,
+  "continues": 61,
+  "before_chapter_deaths": {
+    "1": 1,
+    "2": 4,
+    "3": 9,
+    "4": 8,
+    "5": 13,
+    "6": 12,
+    "7": 27,
+    "8": 76
+  },
+  "after_chapter_deaths": {
+    "1": 0,
+    "2": 3,
+    "3": 7,
+    "4": 11,
+    "5": 14,
+    "6": 11,
+    "7": 20,
+    "8": 57
+  },
+  "accepted_tree": "arcade/orlegend-bt-deployed.json",
+  "practice_tree": "arcade/orlegend-bt-policy.json",
+  "evidence": "arcade\\runs\\orlegend\\bt\\full-v4-screen-01\\64-16"
+}

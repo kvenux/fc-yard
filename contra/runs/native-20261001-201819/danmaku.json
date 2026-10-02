@@ -1,0 +1,5526 @@
+{
+  "run": "native-20261001-201819",
+  "authored": false,
+  "mixedAuthored": true,
+  "source": "Imported historical Bilibili comments, authored adaptations and retained AI commentary",
+  "previewFrame": 59548,
+  "stats": {
+    "entries": 276,
+    "uniqueTexts": 276,
+    "categories": {
+      "bilibili": 162,
+      "ai": 42,
+      "adapted": 72
+    },
+    "perStage": {
+      "1": 23,
+      "2": 18,
+      "3": 54,
+      "4": 60,
+      "5": 30,
+      "6": 29,
+      "7": 21,
+      "8": 41
+    },
+    "maxGapSeconds": 9,
+    "meanGapSeconds": 4.7176969696969655
+  },
+  "entries": [
+    {
+      "frame": 933,
+      "text": "小时候30条命都没通关过",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 9,
+        "originalSeconds": 5.16,
+        "originalText": "小时候30条命都没通关过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 0
+    },
+    {
+      "frame": 1027,
+      "text": "童年噩梦",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 21,
+        "originalSeconds": 9.76,
+        "originalText": "童年噩梦",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 1
+    },
+    {
+      "frame": 1098,
+      "text": "小时候 都是靠复活金身过关的",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 24,
+        "originalSeconds": 10.319,
+        "originalText": "小时候，都是靠复活金身过关的",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 2
+    },
+    {
+      "frame": 1425,
+      "text": "童年没玩过的系列",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 34,
+        "originalSeconds": 13.599,
+        "originalText": "童年没玩过的系列",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 240
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 3
+    },
+    {
+      "frame": 1529,
+      "text": "玩过。",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 41,
+        "originalSeconds": 19.945,
+        "originalText": "玩过。",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 240
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 4
+    },
+    {
+      "frame": 1598,
+      "text": "熟悉的声音",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 42,
+        "originalSeconds": 20.228,
+        "originalText": "熟悉的声音",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 240
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 5
+    },
+    {
+      "frame": 1910,
+      "text": "把这地图背下来 超难的吧",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 51,
+        "originalSeconds": 26.151,
+        "originalText": "把这地图背下来，超难的吧",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 450
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 6
+    },
+    {
+      "frame": 2023,
+      "text": "辛苦了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 56,
+        "originalSeconds": 28.721,
+        "originalText": "辛苦了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 480
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 7
+    },
+    {
+      "frame": 2091,
+      "text": "五条命最多打到第6关 已经是班上最好水平了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 57,
+        "originalSeconds": 28.833,
+        "originalText": "五条命最多打到第6关，已经是班上最好水平了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 480
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 8
+    },
+    {
+      "frame": 2413,
+      "text": "靠30命打通",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 62,
+        "originalSeconds": 31.333,
+        "originalText": "靠30命打通",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 720
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 9
+    },
+    {
+      "frame": 2835,
+      "text": "打个老游戏而已 别急着封神",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 0,
+        "frame": 2835,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-1",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 10
+    },
+    {
+      "frame": 2894,
+      "text": "我好像玩过 感觉",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 81,
+        "originalSeconds": 48.491,
+        "originalText": "我好像玩过，感觉",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 900
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 11
+    },
+    {
+      "frame": 2985,
+      "text": "我连这个老游戏都没打明白啊",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 0,
+        "frame": 2835,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-1",
+      "lane": 2,
+      "durationFrames": 480,
+      "id": 12
+    },
+    {
+      "frame": 3340,
+      "text": "得交多少学费。。",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 111,
+        "originalSeconds": 79.175,
+        "originalText": "得交多少学费。。",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 900
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 13
+    },
+    {
+      "frame": 3486,
+      "text": "我玩了几百把",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 118,
+        "originalSeconds": 91.647,
+        "originalText": "我玩了几百把",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 840
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 14
+    },
+    {
+      "frame": 3708,
+      "text": "会打魂斗罗 不等于会过日子",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 0,
+        "frame": 3708,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-2",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 15
+    },
+    {
+      "frame": 3858,
+      "text": "放心 我过日子也没打明白",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 0,
+        "frame": 3708,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-2",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 16
+    },
+    {
+      "frame": 3970,
+      "text": "当年我可是封号斗罗",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 129,
+        "originalSeconds": 117.153,
+        "originalText": "当年我可是封号斗罗",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 840
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 17
+    },
+    {
+      "frame": 4200,
+      "text": "散弹还是厉害啊",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 211,
+        "originalSeconds": 164.724,
+        "originalText": "散弹还是厉害啊",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_weapon_snapshot",
+        "stage": 0,
+        "schedulingDelayFrames": 900
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 18
+    },
+    {
+      "frame": 4352,
+      "text": "都在看",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 137,
+        "originalSeconds": 119.131,
+        "originalText": "都在看",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 870
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 19
+    },
+    {
+      "frame": 4451,
+      "text": "这么紧张 咋发",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 139,
+        "originalSeconds": 119.279,
+        "originalText": "这么紧张，咋发",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 900
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 20
+    },
+    {
+      "frame": 4701,
+      "text": "认真看呢",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 147,
+        "originalSeconds": 127.589,
+        "originalText": "认真看呢",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 900
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 21
+    },
+    {
+      "frame": 4832,
+      "text": "熟练得让人心疼",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 152,
+        "originalSeconds": 131.881,
+        "originalText": "熟练得让人心疼",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 0,
+        "schedulingDelayFrames": 870
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 22
+    },
+    {
+      "frame": 5274,
+      "text": "小时候玩这个被妹子带飞了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 236,
+        "originalSeconds": 182.142,
+        "originalText": "小时候玩这个被妹子带飞了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 1,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 23
+    },
+    {
+      "frame": 5580,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "我打五遍 可能得到五种死法",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 130,
+        "originalSeconds": 117.189,
+        "originalText": "我手残，这里我要打5遍",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 1,
+        "authored": true,
+        "parentText": "我手残 这里我要打5遍",
+        "parentLine": 130
+      },
+      "id": 24
+    },
+    {
+      "frame": 5933,
+      "text": "打到第六关被火烧死过不去",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 239,
+        "originalSeconds": 185.666,
+        "originalText": "打到第六关被火烧死过不去",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 1,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 25
+    },
+    {
+      "frame": 6397,
+      "text": "我先找找它有什么不会的",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 1,
+        "frame": 6397,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-3",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 26
+    },
+    {
+      "frame": 6547,
+      "text": "以前看高手是学技术 现在是找漏洞",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 1,
+        "frame": 6397,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-3",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 27
+    },
+    {
+      "frame": 6796,
+      "text": "熟悉的音乐",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 250,
+        "originalSeconds": 198.606,
+        "originalText": "熟悉的音乐",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 1,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 28
+    },
+    {
+      "frame": 7140,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "弹幕少的时候可能大家都在盯落点",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 127,
+        "originalSeconds": 116.272,
+        "originalText": "都在认真看",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 1,
+        "authored": true,
+        "parentText": "都在认真看",
+        "parentLine": 127
+      },
+      "id": 29
+    },
+    {
+      "frame": 7493,
+      "text": "以前打这关打到自闭",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 260,
+        "originalSeconds": 203.913,
+        "originalText": "以前打这关打到自闭",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 1,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 30
+    },
+    {
+      "frame": 7757,
+      "text": "它练游戏 我练怎么不破防",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 1,
+        "frame": 7757,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-4",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 31
+    },
+    {
+      "frame": 7907,
+      "text": "本来来放松的 怎么还看焦虑了",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 1,
+        "frame": 7757,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-4",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 32
+    },
+    {
+      "frame": 8220,
+      "text": "天天两点多睡觉六点起来打魂斗罗",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 265,
+        "originalSeconds": 210.558,
+        "originalText": "天天两点多睡觉六点起来打魂斗罗",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 1,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 33
+    },
+    {
+      "frame": 8580,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "人没在游戏里 肩膀倒一直绷着",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 173,
+        "originalSeconds": 139.76,
+        "originalText": "看的好紧张",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 1,
+        "authored": true,
+        "parentText": "看的好紧张",
+        "parentLine": 173
+      },
+      "id": 34
+    },
+    {
+      "frame": 8912,
+      "text": "经典的音乐",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 267,
+        "originalSeconds": 215.653,
+        "originalText": "经典的音乐",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 1,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 35
+    },
+    {
+      "frame": 9116,
+      "text": "AI也就这样 有本事不许看游戏状态",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 1,
+        "frame": 9116,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-5",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 36
+    },
+    {
+      "frame": 9266,
+      "text": "这句吐槽有道理 条件得说清楚",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 1,
+        "frame": 9116,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-5",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 37
+    },
+    {
+      "frame": 9600,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "别人的操作不能算自己的实力",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 748,
+        "originalSeconds": 837.638,
+        "originalText": "说难度不大的，自己打一把",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 1,
+        "authored": true,
+        "parentText": "说难度不大的 自己打一把",
+        "parentLine": 748
+      },
+      "id": 38
+    },
+    {
+      "frame": 9899,
+      "text": "我去",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 279,
+        "originalSeconds": 234.273,
+        "originalText": "我去",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 1,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 39
+    },
+    {
+      "frame": 10380,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "我和通关之间差的真不是几条命",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 9,
+        "originalSeconds": 5.16,
+        "originalText": "小时候30条命都没通关过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 1,
+        "authored": true,
+        "parentText": "小时候30条命都没通关过",
+        "parentLine": 9
+      },
+      "id": 40
+    },
+    {
+      "frame": 10743,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "背景越热闹 眼睛越不够用",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 361,
+        "originalSeconds": 327.685,
+        "originalText": "子弹好难看清",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "子弹好难看清",
+        "parentLine": 361
+      },
+      "id": 41
+    },
+    {
+      "frame": 10857,
+      "text": "友情破灭关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 300,
+        "originalSeconds": 248.678,
+        "originalText": "友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 42
+    },
+    {
+      "frame": 11131,
+      "text": "眼花了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 302,
+        "originalSeconds": 249.359,
+        "originalText": "眼花了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 43
+    },
+    {
+      "frame": 11283,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "这关最难解释的是我真不是故意的",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 313,
+        "originalSeconds": 257.129,
+        "originalText": "友尽关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友尽关",
+        "parentLine": 313
+      },
+      "id": 44
+    },
+    {
+      "frame": 11419,
+      "text": "看的眼花",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 304,
+        "originalSeconds": 250.779,
+        "originalText": "看的眼花",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 45
+    },
+    {
+      "frame": 11687,
+      "text": "我见过这关 没过去",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 305,
+        "originalSeconds": 251.147,
+        "originalText": "我见过这关，没过去",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 46
+    },
+    {
+      "frame": 11883,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "双人模式练的不是枪法 是忍耐",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 300,
+        "originalSeconds": 248.678,
+        "originalText": "友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友情破灭关",
+        "parentLine": 300
+      },
+      "id": 47
+    },
+    {
+      "frame": 12066,
+      "text": "友尽关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 313,
+        "originalSeconds": 257.129,
+        "originalText": "友尽关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 48
+    },
+    {
+      "frame": 12443,
+      "text": "翻车瀑布",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 319,
+        "originalSeconds": 263.006,
+        "originalText": "翻车瀑布",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 49
+    },
+    {
+      "frame": 12757,
+      "text": "前面友情破灭关的太真实了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 320,
+        "originalSeconds": 265.71,
+        "originalText": "前面友情破灭关的太真实了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 50
+    },
+    {
+      "frame": 13069,
+      "text": "这关看的眼花",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 322,
+        "originalSeconds": 268.325,
+        "originalText": "这关看的眼花",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 51
+    },
+    {
+      "frame": 13334,
+      "text": "经常和弟弟比 看谁被卡死",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 323,
+        "originalSeconds": 268.551,
+        "originalText": "经常和弟弟比，看谁被卡死",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 52
+    },
+    {
+      "frame": 13474,
+      "text": "别急 刚才说了它是搜索加回放",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 2,
+        "frame": 13474,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-6",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 53
+    },
+    {
+      "frame": 13624,
+      "text": "那也不耽误我打不过这条路线啊",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 2,
+        "frame": 13474,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-6",
+      "lane": 2,
+      "durationFrames": 480,
+      "id": 54
+    },
+    {
+      "frame": 13830,
+      "text": "对!!!我最爱的就是F子弹!!!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 126,
+        "originalSeconds": 115.263,
+        "originalText": "对！！！我最爱的就是F子弹！！！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_weapon_snapshot",
+        "stage": 2,
+        "schedulingDelayFrames": 390
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 55
+    },
+    {
+      "frame": 13954,
+      "text": "好友如意互殴关卡",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 325,
+        "originalSeconds": 270.031,
+        "originalText": "好友如意互殴关卡",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 330
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 56
+    },
+    {
+      "frame": 14125,
+      "text": "2333",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 326,
+        "originalSeconds": 273.091,
+        "originalText": "2333",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 180
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 57
+    },
+    {
+      "frame": 14362,
+      "text": "友情破灭关 2333333",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 333,
+        "originalSeconds": 280.993,
+        "originalText": "友情破灭关，2333333",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 58
+    },
+    {
+      "frame": 14730,
+      "text": "我玩这关经常不等人 嘻嘻嘻",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 335,
+        "originalSeconds": 286.42,
+        "originalText": "我玩这关经常不等人，嘻嘻嘻",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 59
+    },
+    {
+      "frame": 15034,
+      "text": "给我30命我还是能通关的_(:з」∠)_",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 336,
+        "originalSeconds": 288.619,
+        "originalText": "给我30命我还是能通关的_(:з」∠)_",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 60
+    },
+    {
+      "frame": 15243,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "一个说等我 一个说来不及了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 300,
+        "originalSeconds": 248.678,
+        "originalText": "友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友情破灭关",
+        "parentLine": 300
+      },
+      "id": 61
+    },
+    {
+      "frame": 15421,
+      "text": "嗯对 友情破灭关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 337,
+        "originalSeconds": 294.985,
+        "originalText": "嗯对，友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 62
+    },
+    {
+      "frame": 15711,
+      "text": "一看就会 一学就废",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 338,
+        "originalSeconds": 296.466,
+        "originalText": "一看就会，一学就废",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 63
+    },
+    {
+      "frame": 15843,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "眼睛得在枪口和脚下之间来回跑",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 361,
+        "originalSeconds": 327.685,
+        "originalText": "子弹好难看清",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "子弹好难看清",
+        "parentLine": 361
+      },
+      "id": 64
+    },
+    {
+      "frame": 15972,
+      "text": "当时看到这个慌得一批",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 339,
+        "originalSeconds": 296.518,
+        "originalText": "当时看到这个慌得一批",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 65
+    },
+    {
+      "frame": 16234,
+      "text": "当年在DVD上玩碟子上的 一个暑假才把这个通关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 340,
+        "originalSeconds": 296.571,
+        "originalText": "当年在DVD上玩碟子上的，一个暑假才把这个通关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 66
+    },
+    {
+      "frame": 16495,
+      "text": "双人玩这关就是个友情破灭关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 341,
+        "originalSeconds": 296.64,
+        "originalText": "双人玩这关就是个友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 67
+    },
+    {
+      "frame": 16850,
+      "text": "这不是眼睛看画面 是能读游戏数据",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 2,
+        "frame": 16850,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-7",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 68
+    },
+    {
+      "frame": 17000,
+      "text": "知道它怎么做 心里倒踏实一点",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 2,
+        "frame": 16850,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-7",
+      "lane": 2,
+      "durationFrames": 480,
+      "id": 69
+    },
+    {
+      "frame": 17065,
+      "text": "我玩过这个",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 349,
+        "originalSeconds": 312.24,
+        "originalText": "我玩过这个",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 70
+    },
+    {
+      "frame": 17336,
+      "text": "这不是随便玩 魂斗罗玩了n年",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 351,
+        "originalSeconds": 312.788,
+        "originalText": "这不是随便玩   魂斗罗玩了n年",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 71
+    },
+    {
+      "frame": 17523,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "这里的合作模式主要靠互相原谅",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 313,
+        "originalSeconds": 257.129,
+        "originalText": "友尽关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友尽关",
+        "parentLine": 313
+      },
+      "id": 72
+    },
+    {
+      "frame": 17666,
+      "text": "考验友情的一关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 352,
+        "originalSeconds": 316.279,
+        "originalText": "考验友情的一关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 73
+    },
+    {
+      "frame": 18001,
+      "text": "哈哈 友情破灭关 真实",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 353,
+        "originalSeconds": 320.04,
+        "originalText": "哈哈，友情破灭关，真实",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 74
+    },
+    {
+      "frame": 18183,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "小时候到这关 两个人声音都变大了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 300,
+        "originalSeconds": 248.678,
+        "originalText": "友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友情破灭关",
+        "parentLine": 300
+      },
+      "id": 75
+    },
+    {
+      "frame": 18413,
+      "text": "子弹好难看清",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 361,
+        "originalSeconds": 327.685,
+        "originalText": "子弹好难看清",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 76
+    },
+    {
+      "frame": 18776,
+      "text": "这有什么难度的 你看着他玩当然简单",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 366,
+        "originalSeconds": 332.879,
+        "originalText": "这有什么难度的 你看着他玩当然简单",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 77
+    },
+    {
+      "frame": 18903,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "光顾着找敌人 脚下就容易忘",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 361,
+        "originalSeconds": 327.685,
+        "originalText": "子弹好难看清",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "子弹好难看清",
+        "parentLine": 361
+      },
+      "id": 78
+    },
+    {
+      "frame": 19047,
+      "text": "看速通视频很容易让人产生自己行了的错觉",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 368,
+        "originalSeconds": 333.383,
+        "originalText": "看速通视频很容易让人产生自己行了的错觉",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 79
+    },
+    {
+      "frame": 19328,
+      "text": "背板狂魔",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 370,
+        "originalSeconds": 334.438,
+        "originalText": "背板狂魔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 80
+    },
+    {
+      "frame": 19563,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "平台还没上去 友谊先下去了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 300,
+        "originalSeconds": 248.678,
+        "originalText": "友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友情破灭关",
+        "parentLine": 300
+      },
+      "id": 81
+    },
+    {
+      "frame": 19784,
+      "text": "超难",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 372,
+        "originalSeconds": 344.28,
+        "originalText": "超难",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 82
+    },
+    {
+      "frame": 20225,
+      "text": "我练了几年 它这套到底练了多久",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 2,
+        "frame": 20225,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-8",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 83
+    },
+    {
+      "frame": 20375,
+      "text": "最扎心的是我现在还得向它学",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 2,
+        "frame": 20225,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-8",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 84
+    },
+    {
+      "frame": 20460,
+      "text": "弹幕护体",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 383,
+        "originalSeconds": 365.265,
+        "originalText": "弹幕护体",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 85
+    },
+    {
+      "frame": 20736,
+      "text": "高手中的高手!!!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 388,
+        "originalSeconds": 366.035,
+        "originalText": "高手中的高手！！！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 86
+    },
+    {
+      "frame": 20999,
+      "text": "心肺停止",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 390,
+        "originalSeconds": 366.153,
+        "originalText": "心肺停止",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 87
+    },
+    {
+      "frame": 21183,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "这瀑布冲走的不只是命",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 313,
+        "originalSeconds": 257.129,
+        "originalText": "友尽关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友尽关",
+        "parentLine": 313
+      },
+      "id": 88
+    },
+    {
+      "frame": 21347,
+      "text": "你只是看是体会不到的",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 406,
+        "originalSeconds": 370.556,
+        "originalText": "你只是看是体会不到的",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 89
+    },
+    {
+      "frame": 21634,
+      "text": "狠人",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 411,
+        "originalSeconds": 371.921,
+        "originalText": "狠人",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 90
+    },
+    {
+      "frame": 21963,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "当年这关过没过忘了 吵架我还记得",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 300,
+        "originalSeconds": 248.678,
+        "originalText": "友情破灭关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友情破灭关",
+        "parentLine": 300
+      },
+      "id": 91
+    },
+    {
+      "frame": 22271,
+      "text": "难点在哪 问一下",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 433,
+        "originalSeconds": 390.905,
+        "originalText": "难点在哪 问一下",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 92
+    },
+    {
+      "frame": 22443,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "当年卡带没坏 友情差点坏了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 313,
+        "originalSeconds": 257.129,
+        "originalText": "友尽关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 2,
+        "authored": true,
+        "parentText": "友尽关",
+        "parentLine": 313
+      },
+      "id": 93
+    },
+    {
+      "frame": 22597,
+      "text": "so easy",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 439,
+        "originalSeconds": 394.219,
+        "originalText": "so easy",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 2,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 94
+    },
+    {
+      "frame": 23100,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "三十条命 听着多 用起来真不经用",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 9,
+        "originalSeconds": 5.16,
+        "originalText": "小时候30条命都没通关过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "小时候30条命都没通关过",
+        "parentLine": 9
+      },
+      "id": 95
+    },
+    {
+      "frame": 23624,
+      "text": "蒸汽朋克!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 442,
+        "originalSeconds": 405.629,
+        "originalText": "蒸汽朋克！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 96
+    },
+    {
+      "frame": 24120,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "音乐没变 我的反应速度变了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 42,
+        "originalSeconds": 20.228,
+        "originalText": "熟悉的声音",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "熟悉的声音",
+        "parentLine": 42
+      },
+      "id": 97
+    },
+    {
+      "frame": 24582,
+      "text": "挺有科技感的",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 444,
+        "originalSeconds": 408.039,
+        "originalText": "挺有科技感的",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 98
+    },
+    {
+      "frame": 24900,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "路线背下来了 手指不一定听安排",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 370,
+        "originalSeconds": 334.438,
+        "originalText": "背板狂魔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "背板狂魔",
+        "parentLine": 370
+      },
+      "id": 99
+    },
+    {
+      "frame": 25200,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "看别人打永远觉得来得及",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 368,
+        "originalSeconds": 333.383,
+        "originalText": "看速通视频很容易让人产生自己行了的错觉",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "看速通视频很容易让人产生自己行了的错觉",
+        "parentLine": 368
+      },
+      "id": 100
+    },
+    {
+      "frame": 25500,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "背板我能背 真上手还是会忘",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 370,
+        "originalSeconds": 334.438,
+        "originalText": "背板狂魔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "背板狂魔",
+        "parentLine": 370
+      },
+      "id": 101
+    },
+    {
+      "frame": 25842,
+      "text": "同感",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 448,
+        "originalSeconds": 418.652,
+        "originalText": "同感",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 102
+    },
+    {
+      "frame": 26280,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "看着这么顺 前面估计没少练",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 152,
+        "originalSeconds": 131.881,
+        "originalText": "熟练得让人心疼",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "熟练得让人心疼",
+        "parentLine": 152
+      },
+      "id": 103
+    },
+    {
+      "frame": 26700,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "刚想说简单 想起自己怎么死的了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 338,
+        "originalSeconds": 296.466,
+        "originalText": "一看就会，一学就废",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "一看就会 一学就废",
+        "parentLine": 338
+      },
+      "id": 104
+    },
+    {
+      "frame": 27120,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "别人的肌肉记忆 我的事故记录",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 152,
+        "originalSeconds": 131.881,
+        "originalText": "熟练得让人心疼",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "熟练得让人心疼",
+        "parentLine": 152
+      },
+      "id": 105
+    },
+    {
+      "frame": 27518,
+      "text": "感觉自己是个残废的+1",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 452,
+        "originalSeconds": 440.593,
+        "originalText": "感觉自己是个残废的+1",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 106
+    },
+    {
+      "frame": 27903,
+      "text": "它能反复试动作 我只能赌一次",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 3,
+        "frame": 27903,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-9",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 107
+    },
+    {
+      "frame": 28053,
+      "text": "羡慕的不是枪法 是试错条件",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 3,
+        "frame": 27903,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-9",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 108
+    },
+    {
+      "frame": 28452,
+      "text": "这里是难点",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 453,
+        "originalSeconds": 442.346,
+        "originalText": "这里是难点",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 109
+    },
+    {
+      "frame": 28800,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "记得哪里有敌人 不等于能躲过去",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 370,
+        "originalSeconds": 334.438,
+        "originalText": "背板狂魔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "背板狂魔",
+        "parentLine": 370
+      },
+      "id": 110
+    },
+    {
+      "frame": 29100,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "我负责看懂 我的手负责不懂",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 338,
+        "originalSeconds": 296.466,
+        "originalText": "一看就会，一学就废",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "一看就会 一学就废",
+        "parentLine": 338
+      },
+      "id": 111
+    },
+    {
+      "frame": 29460,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "先看两眼 回忆已经自己跑出来了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 127,
+        "originalSeconds": 116.272,
+        "originalText": "都在认真看",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "都在认真看",
+        "parentLine": 127
+      },
+      "id": 112
+    },
+    {
+      "frame": 29803,
+      "text": "秀起来了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 460,
+        "originalSeconds": 455.456,
+        "originalText": "秀起来了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 113
+    },
+    {
+      "frame": 30300,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "小时候加的是命 不是技术",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 9,
+        "originalSeconds": 5.16,
+        "originalText": "小时候30条命都没通关过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "小时候30条命都没通关过",
+        "parentLine": 9
+      },
+      "id": 114
+    },
+    {
+      "frame": 30840,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "眼睛已经通关了 手还在第一关",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 338,
+        "originalSeconds": 296.466,
+        "originalText": "一看就会，一学就废",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "一看就会 一学就废",
+        "parentLine": 338
+      },
+      "id": 115
+    },
+    {
+      "frame": 31320,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "命给够了 路还是不认识",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 9,
+        "originalSeconds": 5.16,
+        "originalText": "小时候30条命都没通关过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "小时候30条命都没通关过",
+        "parentLine": 9
+      },
+      "id": 116
+    },
+    {
+      "frame": 31842,
+      "text": "听这个声音好催眠阿。都犯困了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 471,
+        "originalSeconds": 487.288,
+        "originalText": "听这个声音好催眠阿。都犯困了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 117
+    },
+    {
+      "frame": 32100,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "童年成绩挺好 成年人不敢复查",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 544,
+        "originalSeconds": 593.019,
+        "originalText": "小时候通过关，现在反而不行了。",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "小时候通过关 现在反而不行了。",
+        "parentLine": 544
+      },
+      "id": 118
+    },
+    {
+      "frame": 32400,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "我这水平上去主要负责重开",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 479,
+        "originalSeconds": 509.143,
+        "originalText": "人生的错觉，我上我也行",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "人生的错觉 我上我也行",
+        "parentLine": 479
+      },
+      "id": 119
+    },
+    {
+      "frame": 32907,
+      "text": "这bgm听着很热血啊",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 473,
+        "originalSeconds": 492.617,
+        "originalText": "这bgm听着很热血啊",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 120
+    },
+    {
+      "frame": 33420,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "错觉来了 谁把手柄藏一下",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 479,
+        "originalSeconds": 509.143,
+        "originalText": "人生的错觉，我上我也行",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "人生的错觉 我上我也行",
+        "parentLine": 479
+      },
+      "id": 121
+    },
+    {
+      "frame": 33941,
+      "text": "只有你玩了才知道这有多么难玩",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 474,
+        "originalSeconds": 497.076,
+        "originalText": "只有你玩了才知道这有多么难玩",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 122
+    },
+    {
+      "frame": 34243,
+      "text": "以前说熟能生巧 现在有点心虚",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 3,
+        "frame": 34243,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-10",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 123
+    },
+    {
+      "frame": 34393,
+      "text": "我辛苦练的东西 会不会越来越不值钱",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 3,
+        "frame": 34243,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-10",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 124
+    },
+    {
+      "frame": 34680,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "小时候手比脑子快 现在脑子也没快",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 544,
+        "originalSeconds": 593.019,
+        "originalText": "小时候通过关，现在反而不行了。",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "小时候通过关 现在反而不行了。",
+        "parentLine": 544
+      },
+      "id": 125
+    },
+    {
+      "frame": 34946,
+      "text": "可惜我玩过",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 475,
+        "originalSeconds": 500.753,
+        "originalText": "可惜我玩过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 126
+    },
+    {
+      "frame": 35460,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "嘴已经通关 手还没报名",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 479,
+        "originalSeconds": 509.143,
+        "originalText": "人生的错觉，我上我也行",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "人生的错觉 我上我也行",
+        "parentLine": 479
+      },
+      "id": 127
+    },
+    {
+      "frame": 35973,
+      "text": "我们这边每加一条命都说加一个仔",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 477,
+        "originalSeconds": 505.039,
+        "originalText": "我们这边每加一条命都说加一个仔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 128
+    },
+    {
+      "frame": 36480,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "建议给我的自信单独算一条命",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 479,
+        "originalSeconds": 509.143,
+        "originalText": "人生的错觉，我上我也行",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "人生的错觉 我上我也行",
+        "parentLine": 479
+      },
+      "id": 129
+    },
+    {
+      "frame": 36993,
+      "text": "人生的错觉 我上我也行",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 479,
+        "originalSeconds": 509.143,
+        "originalText": "人生的错觉，我上我也行",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 130
+    },
+    {
+      "frame": 37320,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "手没出力 手心倒出汗了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 173,
+        "originalSeconds": 139.76,
+        "originalText": "看的好紧张",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "看的好紧张",
+        "parentLine": 173
+      },
+      "id": 131
+    },
+    {
+      "frame": 37680,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "看完觉得会了 插上卡又忘了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 338,
+        "originalSeconds": 296.466,
+        "originalText": "一看就会，一学就废",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "一看就会 一学就废",
+        "parentLine": 338
+      },
+      "id": 132
+    },
+    {
+      "frame": 38040,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "看着看着 我也不敢乱动了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 173,
+        "originalSeconds": 139.76,
+        "originalText": "看的好紧张",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "看的好紧张",
+        "parentLine": 173
+      },
+      "id": 133
+    },
+    {
+      "frame": 38369,
+      "text": "一看就会一玩就废",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 493,
+        "originalSeconds": 522.928,
+        "originalText": "一看就会一玩就废",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 134
+    },
+    {
+      "frame": 38820,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "好多年没听 一响还是那个感觉",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 267,
+        "originalSeconds": 215.653,
+        "originalText": "经典的音乐",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "经典的音乐",
+        "parentLine": 267
+      },
+      "id": 135
+    },
+    {
+      "frame": 39266,
+      "text": "玩熟了你会觉得很容易过的",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 494,
+        "originalSeconds": 523.669,
+        "originalText": "玩熟了你会觉得很容易过的",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 136
+    },
+    {
+      "frame": 39600,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "到这时候才发现记路也算本事",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 370,
+        "originalSeconds": 334.438,
+        "originalText": "背板狂魔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "背板狂魔",
+        "parentLine": 370
+      },
+      "id": 137
+    },
+    {
+      "frame": 39900,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "再看五分钟 我又该觉得自己行了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 368,
+        "originalSeconds": 333.383,
+        "originalText": "看速通视频很容易让人产生自己行了的错觉",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "看速通视频很容易让人产生自己行了的错觉",
+        "parentLine": 368
+      },
+      "id": 138
+    },
+    {
+      "frame": 40260,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "明明不用我按 怎么还替它着急",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 173,
+        "originalSeconds": 139.76,
+        "originalText": "看的好紧张",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "看的好紧张",
+        "parentLine": 173
+      },
+      "id": 139
+    },
+    {
+      "frame": 40582,
+      "text": "看它打游戏 怎么想起明天上班了",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 3,
+        "frame": 40582,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-11",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 140
+    },
+    {
+      "frame": 40732,
+      "text": "下班想躲开AI 结果又看见AI",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 3,
+        "frame": 40582,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-11",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 141
+    },
+    {
+      "frame": 40803,
+      "text": "小时候一直卡在这",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 508,
+        "originalSeconds": 541.841,
+        "originalText": "小时候一直卡在这",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 142
+    },
+    {
+      "frame": 41340,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "当年不是没机会 是机会都浪费了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 9,
+        "originalSeconds": 5.16,
+        "originalText": "小时候30条命都没通关过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "小时候30条命都没通关过",
+        "parentLine": 9
+      },
+      "id": 143
+    },
+    {
+      "frame": 41820,
+      "text": "蛇皮走位",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 455,
+        "originalSeconds": 448.153,
+        "originalText": "蛇皮走位",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_action_snapshot",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 144
+    },
+    {
+      "frame": 41820,
+      "text": "左右横跳!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 458,
+        "originalSeconds": 450.457,
+        "originalText": "左右横跳！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_action_snapshot",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 145
+    },
+    {
+      "frame": 41882,
+      "text": "经典",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 511,
+        "originalSeconds": 547.531,
+        "originalText": "经典",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 146
+    },
+    {
+      "frame": 42300,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "每个看着简单的动作都是练出来的",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 152,
+        "originalSeconds": 131.881,
+        "originalText": "熟练得让人心疼",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "熟练得让人心疼",
+        "parentLine": 152
+      },
+      "id": 147
+    },
+    {
+      "frame": 42758,
+      "text": "人生错觉 我上我也行系列",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 512,
+        "originalSeconds": 547.691,
+        "originalText": "人生错觉，我上我也行系列",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 148
+    },
+    {
+      "frame": 43200,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "以前是背景音乐 现在是回忆开关",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 267,
+        "originalSeconds": 215.653,
+        "originalText": "经典的音乐",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "经典的音乐",
+        "parentLine": 267
+      },
+      "id": 149
+    },
+    {
+      "frame": 43632,
+      "text": "才发现我通关过",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 513,
+        "originalSeconds": 547.809,
+        "originalText": "才发现我通关过",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 150
+    },
+    {
+      "frame": 44160,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "视频暂停的时候我反应最快",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 368,
+        "originalSeconds": 333.383,
+        "originalText": "看速通视频很容易让人产生自己行了的错觉",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "看速通视频很容易让人产生自己行了的错觉",
+        "parentLine": 368
+      },
+      "id": 151
+    },
+    {
+      "frame": 44460,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "我到现在还习惯喊小时候那个名字",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 477,
+        "originalSeconds": 505.039,
+        "originalText": "我们这边每加一条命都说加一个仔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "我们这边每加一条命都说加一个仔",
+        "parentLine": 477
+      },
+      "id": 152
+    },
+    {
+      "frame": 44708,
+      "text": "紧张刺激",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 517,
+        "originalSeconds": 553.439,
+        "originalText": "紧张刺激",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 3,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 153
+    },
+    {
+      "frame": 45180,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "画面还没看清 耳朵先认出来了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 42,
+        "originalSeconds": 20.228,
+        "originalText": "熟悉的声音",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 3,
+        "authored": true,
+        "parentText": "熟悉的声音",
+        "parentLine": 42
+      },
+      "id": 154
+    },
+    {
+      "frame": 45712,
+      "text": "厉害了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 520,
+        "originalSeconds": 558.046,
+        "originalText": "厉害了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 155
+    },
+    {
+      "frame": 46114,
+      "text": "这关bgm最好听",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 521,
+        "originalSeconds": 558.262,
+        "originalText": "这关bgm最好听",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 156
+    },
+    {
+      "frame": 46529,
+      "text": "我最喜欢的一关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 522,
+        "originalSeconds": 559.479,
+        "originalText": "我最喜欢的一关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 157
+    },
+    {
+      "frame": 46960,
+      "text": "好家伙",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 524,
+        "originalSeconds": 561.982,
+        "originalText": "好家伙",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 158
+    },
+    {
+      "frame": 47465,
+      "text": "我当时靠着存档大法才一命通关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 529,
+        "originalSeconds": 570.13,
+        "originalText": "我当时靠着存档大法才一命通关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 159
+    },
+    {
+      "frame": 47744,
+      "text": "游戏里可以暂停 变化可不等我",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 4,
+        "frame": 47744,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-12",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 160
+    },
+    {
+      "frame": 47894,
+      "text": "先别把焦虑也开成三倍速",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 4,
+        "frame": 47744,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-12",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 161
+    },
+    {
+      "frame": 47974,
+      "text": "我也最喜欢的一关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 534,
+        "originalSeconds": 573.982,
+        "originalText": "我也最喜欢的一关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 60
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 162
+    },
+    {
+      "frame": 48468,
+      "text": "biubiubiu",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 541,
+        "originalSeconds": 585.963,
+        "originalText": "biubiubiu",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 163
+    },
+    {
+      "frame": 48959,
+      "text": "小时候通过关 现在反而不行了。",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 544,
+        "originalSeconds": 593.019,
+        "originalText": "小时候通过关，现在反而不行了。",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 164
+    },
+    {
+      "frame": 49020,
+      "text": "拖拉机",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 579,
+        "originalSeconds": 629.274,
+        "originalText": "拖拉机",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_action_snapshot",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 165
+    },
+    {
+      "frame": 49384,
+      "text": "Nice",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 547,
+        "originalSeconds": 595.006,
+        "originalText": "Nice",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 166
+    },
+    {
+      "frame": 49800,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "没刷屏不代表没看 我在憋气",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 127,
+        "originalSeconds": 116.272,
+        "originalText": "都在认真看",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 4,
+        "authored": true,
+        "parentText": "都在认真看",
+        "parentLine": 127
+      },
+      "id": 167
+    },
+    {
+      "frame": 50188,
+      "text": "这还是人吗",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 574,
+        "originalSeconds": 626.169,
+        "originalText": "这还是人吗",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 168
+    },
+    {
+      "frame": 50347,
+      "text": "它一命通关 我一命打工",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 4,
+        "frame": 50347,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-13",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 169
+    },
+    {
+      "frame": 50497,
+      "text": "这弹幕的伤害比炮台还高",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 4,
+        "frame": 50347,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-13",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 170
+    },
+    {
+      "frame": 50670,
+      "text": "背后搞偷袭",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 612,
+        "originalSeconds": 701.3,
+        "originalText": "背后搞偷袭",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_action_snapshot",
+        "stage": 4,
+        "schedulingDelayFrames": 90
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 171
+    },
+    {
+      "frame": 50856,
+      "text": "第一次玩绝对感觉都是坑",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 580,
+        "originalSeconds": 630.739,
+        "originalText": "第一次玩绝对感觉都是坑",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 210
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 172
+    },
+    {
+      "frame": 51368,
+      "text": "666666",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 599,
+        "originalSeconds": 655.609,
+        "originalText": "666666",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 173
+    },
+    {
+      "frame": 51799,
+      "text": "真的有这种人",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 601,
+        "originalSeconds": 658.099,
+        "originalText": "真的有这种人",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 174
+    },
+    {
+      "frame": 52080,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "等我试过再回来发表高见",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 748,
+        "originalSeconds": 837.638,
+        "originalText": "说难度不大的，自己打一把",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 4,
+        "authored": true,
+        "parentText": "说难度不大的 自己打一把",
+        "parentLine": 748
+      },
+      "id": 175
+    },
+    {
+      "frame": 52362,
+      "text": "厉害",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 603,
+        "originalSeconds": 670.684,
+        "originalText": "厉害",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 176
+    },
+    {
+      "frame": 52680,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "简单这两个字 先把手柄接上再说",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 748,
+        "originalSeconds": 837.638,
+        "originalText": "说难度不大的，自己打一把",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 4,
+        "authored": true,
+        "parentText": "说难度不大的 自己打一把",
+        "parentLine": 748
+      },
+      "id": 177
+    },
+    {
+      "frame": 52980,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "手柄不在手里 人人都是高手",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 368,
+        "originalSeconds": 333.383,
+        "originalText": "看速通视频很容易让人产生自己行了的错觉",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 4,
+        "authored": true,
+        "parentText": "看速通视频很容易让人产生自己行了的错觉",
+        "parentLine": 368
+      },
+      "id": 178
+    },
+    {
+      "frame": 53280,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "看的时候敢指挥 玩的时候不敢走",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 748,
+        "originalSeconds": 837.638,
+        "originalText": "说难度不大的，自己打一把",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 4,
+        "authored": true,
+        "parentText": "说难度不大的 自己打一把",
+        "parentLine": 748
+      },
+      "id": 179
+    },
+    {
+      "frame": 53620,
+      "text": "打了一个暑假都没有那么熟练",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 637,
+        "originalSeconds": 736.823,
+        "originalText": "打了一个暑假都没有那么熟练",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 180
+    },
+    {
+      "frame": 54039,
+      "text": "纳尼?",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 641,
+        "originalSeconds": 738.315,
+        "originalText": "纳尼？",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 181
+    },
+    {
+      "frame": 54483,
+      "text": "估计要高能",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 645,
+        "originalSeconds": 741.832,
+        "originalText": "估计要高能",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 182
+    },
+    {
+      "frame": 54886,
+      "text": "你怎么不放大招啊",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 646,
+        "originalSeconds": 742.109,
+        "originalText": "你怎么不放大招啊",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 4,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 183
+    },
+    {
+      "frame": 55200,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "给我这段录像 我还能按错方向",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 130,
+        "originalSeconds": 117.189,
+        "originalText": "我手残，这里我要打5遍",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 4,
+        "authored": true,
+        "parentText": "我手残 这里我要打5遍",
+        "parentLine": 130
+      },
+      "id": 184
+    },
+    {
+      "frame": 55562,
+      "text": "噩梦关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 652,
+        "originalSeconds": 748.71,
+        "originalText": "噩梦关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 185
+    },
+    {
+      "frame": 55920,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "刚才没说话 是眼睛忙不过来",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 127,
+        "originalSeconds": 116.272,
+        "originalText": "都在认真看",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 5,
+        "authored": true,
+        "parentText": "都在认真看",
+        "parentLine": 127
+      },
+      "id": 186
+    },
+    {
+      "frame": 56331,
+      "text": "前方全程高能预警",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 665,
+        "originalSeconds": 770.353,
+        "originalText": "前方全程高能预警",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 187
+    },
+    {
+      "frame": 56580,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "叫法不一样 抢起来倒一样积极",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 477,
+        "originalSeconds": 505.039,
+        "originalText": "我们这边每加一条命都说加一个仔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 5,
+        "authored": true,
+        "parentText": "我们这边每加一条命都说加一个仔",
+        "parentLine": 477
+      },
+      "id": 188
+    },
+    {
+      "frame": 56851,
+      "text": "跑酷开始",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 669,
+        "originalSeconds": 780.46,
+        "originalText": "跑酷开始",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 189
+    },
+    {
+      "frame": 57219,
+      "text": "前方全程高能",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 671,
+        "originalSeconds": 783.534,
+        "originalText": "前方全程高能",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 190
+    },
+    {
+      "frame": 57391,
+      "text": "我不怕它会 怕的是以后都觉得理所当然",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 5,
+        "frame": 57391,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-15",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 191
+    },
+    {
+      "frame": 57541,
+      "text": "今天还是惊叹 明天就成基本要求了",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 5,
+        "frame": 57391,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-15",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 192
+    },
+    {
+      "frame": 57731,
+      "text": "魂斗罗跑酷",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 674,
+        "originalSeconds": 793.3,
+        "originalText": "魂斗罗跑酷",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 193
+    },
+    {
+      "frame": 58044,
+      "text": "小时候第一次玩原版死绝30个人",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 676,
+        "originalSeconds": 793.846,
+        "originalText": "小时候第一次玩原版死绝30个人",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 194
+    },
+    {
+      "frame": 58380,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "我能重复的操作只有重复死亡",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 130,
+        "originalSeconds": 117.189,
+        "originalText": "我手残，这里我要打5遍",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 5,
+        "authored": true,
+        "parentText": "我手残 这里我要打5遍",
+        "parentLine": 130
+      },
+      "id": 195
+    },
+    {
+      "frame": 58701,
+      "text": "妙啊",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 684,
+        "originalSeconds": 810.279,
+        "originalText": "妙啊",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 196
+    },
+    {
+      "frame": 59012,
+      "text": "我去 过分了吧",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 685,
+        "originalSeconds": 810.741,
+        "originalText": "我去，过分了吧",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 197
+    },
+    {
+      "frame": 59335,
+      "text": "缓缓的打出一个???",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 688,
+        "originalSeconds": 811.739,
+        "originalText": "缓缓的打出一个？？？",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 198
+    },
+    {
+      "frame": 59690,
+      "text": "前方高能!!!!!!!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 691,
+        "originalSeconds": 814.241,
+        "originalText": "前方高能！！！！！！！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 199
+    },
+    {
+      "frame": 59993,
+      "text": "前方高能",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 692,
+        "originalSeconds": 814.297,
+        "originalText": "前方高能",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 200
+    },
+    {
+      "frame": 60295,
+      "text": "爽",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 693,
+        "originalSeconds": 814.353,
+        "originalText": "爽",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 201
+    },
+    {
+      "frame": 60712,
+      "text": "好没面子哈哈哈哈",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 716,
+        "originalSeconds": 819.692,
+        "originalText": "好没面子哈哈哈哈",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 202
+    },
+    {
+      "frame": 61014,
+      "text": "哈哈哈哈哈哈",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 717,
+        "originalSeconds": 819.739,
+        "originalText": "哈哈哈哈哈哈",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 203
+    },
+    {
+      "frame": 61355,
+      "text": "哈哈哈",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 725,
+        "originalSeconds": 821.546,
+        "originalText": "哈哈哈",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 204
+    },
+    {
+      "frame": 61666,
+      "text": "NB!!!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 727,
+        "originalSeconds": 822.021,
+        "originalText": "NB！！！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 205
+    },
+    {
+      "frame": 61913,
+      "text": "AI也就这样吧 让我也读RAM再试试",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 5,
+        "frame": 61913,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-17",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 206
+    },
+    {
+      "frame": 62063,
+      "text": "好 你负责读 我负责不按错",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 5,
+        "frame": 61913,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-17",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 207
+    },
+    {
+      "frame": 62155,
+      "text": "2333333",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 728,
+        "originalSeconds": 822.357,
+        "originalText": "2333333",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 180
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 208
+    },
+    {
+      "frame": 62406,
+      "text": "哈哈哈哈哈",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 733,
+        "originalSeconds": 824.2,
+        "originalText": "哈哈哈哈哈",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 90
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 209
+    },
+    {
+      "frame": 62756,
+      "text": "NB",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 740,
+        "originalSeconds": 830.639,
+        "originalText": "NB",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 210
+    },
+    {
+      "frame": 63084,
+      "text": "走位 走位",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 742,
+        "originalSeconds": 831.859,
+        "originalText": "走位，走位",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 211
+    },
+    {
+      "frame": 63510,
+      "text": "说难度不大的 自己打一把",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 748,
+        "originalSeconds": 837.638,
+        "originalText": "说难度不大的，自己打一把",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 5,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 212
+    },
+    {
+      "frame": 63960,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "这旋律我记得 路线我不记得",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 267,
+        "originalSeconds": 215.653,
+        "originalText": "经典的音乐",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 5,
+        "authored": true,
+        "parentText": "经典的音乐",
+        "parentLine": 267
+      },
+      "id": 213
+    },
+    {
+      "frame": 64440,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "脑子说可以 手柄说不行",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 338,
+        "originalSeconds": 296.466,
+        "originalText": "一看就会，一学就废",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "一看就会 一学就废",
+        "parentLine": 338
+      },
+      "id": 214
+    },
+    {
+      "frame": 64920,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "当年嫌枪声吵 现在还想开大一点",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 42,
+        "originalSeconds": 20.228,
+        "originalText": "熟悉的声音",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "熟悉的声音",
+        "parentLine": 42
+      },
+      "id": 215
+    },
+    {
+      "frame": 65377,
+      "text": "说难度不大的麻烦录个通关视频 不用一命 能通关就行",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 758,
+        "originalSeconds": 874.819,
+        "originalText": "说难度不大的麻烦录个通关视频，不用一命，能通关就行",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 6,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 216
+    },
+    {
+      "frame": 65640,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "地图还在原地 我已经不是那个反应了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 544,
+        "originalSeconds": 593.019,
+        "originalText": "小时候通过关，现在反而不行了。",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "小时候通过关 现在反而不行了。",
+        "parentLine": 544
+      },
+      "id": 217
+    },
+    {
+      "frame": 65912,
+      "text": "不是怕机器厉害 是怕自己没位置",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 6,
+        "frame": 65912,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-18",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 218
+    },
+    {
+      "frame": 66062,
+      "text": "看个游戏 怎么聊到心里去了",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 6,
+        "frame": 65912,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-18",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 219
+    },
+    {
+      "frame": 66480,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "熟练到我以为这路就该这么走",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 152,
+        "originalSeconds": 131.881,
+        "originalText": "熟练得让人心疼",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "熟练得让人心疼",
+        "parentLine": 152
+      },
+      "id": 220
+    },
+    {
+      "frame": 66892,
+      "text": "快乐",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 762,
+        "originalSeconds": 881.056,
+        "originalText": "快乐",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 6,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 221
+    },
+    {
+      "frame": 67380,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "这枪声一响 又想去吹卡带了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 42,
+        "originalSeconds": 20.228,
+        "originalText": "熟悉的声音",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "熟悉的声音",
+        "parentLine": 42
+      },
+      "id": 222
+    },
+    {
+      "frame": 67851,
+      "text": "我最怕那句：这么简单你怎么不会",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 6,
+        "frame": 67851,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-19",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 223
+    },
+    {
+      "frame": 68001,
+      "text": "别拿机器的试错条件要求每个人啊",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 6,
+        "frame": 67851,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-19",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 224
+    },
+    {
+      "frame": 68280,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "当年能按出来的 现在只能描述出来",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 544,
+        "originalSeconds": 593.019,
+        "originalText": "小时候通过关，现在反而不行了。",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "小时候通过关 现在反而不行了。",
+        "parentLine": 544
+      },
+      "id": 225
+    },
+    {
+      "frame": 68580,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "我上次这么自信还是按开始的时候",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 368,
+        "originalSeconds": 333.383,
+        "originalText": "看速通视频很容易让人产生自己行了的错觉",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "看速通视频很容易让人产生自己行了的错觉",
+        "parentLine": 368
+      },
+      "id": 226
+    },
+    {
+      "frame": 68880,
+      "lane": 1,
+      "durationFrames": 480,
+      "text": "小时候给这些道具起的名字全不一样",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 477,
+        "originalSeconds": 505.039,
+        "originalText": "我们这边每加一条命都说加一个仔",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "我们这边每加一条命都说加一个仔",
+        "parentLine": 477
+      },
+      "id": 227
+    },
+    {
+      "frame": 69131,
+      "text": "太六了吧",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 777,
+        "originalSeconds": 921.001,
+        "originalText": "太六了吧",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 6,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 228
+    },
+    {
+      "frame": 69480,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "我不是没看懂 是看懂也按不出来",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 130,
+        "originalSeconds": 117.189,
+        "originalText": "我手残，这里我要打5遍",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "我手残 这里我要打5遍",
+        "parentLine": 130
+      },
+      "id": 229
+    },
+    {
+      "frame": 69789,
+      "text": "它会的越多 我越想知道自己擅长啥",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 6,
+        "frame": 69789,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-20",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 230
+    },
+    {
+      "frame": 69939,
+      "text": "先把这局看完 别急着给自己打分",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 6,
+        "frame": 69789,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-20",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 231
+    },
+    {
+      "frame": 70380,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "这音乐比我当年的成绩留得久",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 267,
+        "originalSeconds": 215.653,
+        "originalText": "经典的音乐",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "经典的音乐",
+        "parentLine": 267
+      },
+      "id": 232
+    },
+    {
+      "frame": 70807,
+      "text": "过分了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 785,
+        "originalSeconds": 934.731,
+        "originalText": "过分了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 6,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 233
+    },
+    {
+      "frame": 71340,
+      "lane": 0,
+      "durationFrames": 480,
+      "text": "我上我也行 仅限点开视频",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 479,
+        "originalSeconds": 509.143,
+        "originalText": "人生的错觉，我上我也行",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "portable_authored_reaction",
+        "stage": 6,
+        "authored": true,
+        "parentText": "人生的错觉 我上我也行",
+        "parentLine": 479
+      },
+      "id": 234
+    },
+    {
+      "frame": 71801,
+      "lane": 2,
+      "durationFrames": 480,
+      "text": "这背景一出来 小时候的害怕也回来了",
+      "accent": false,
+      "category": "adapted",
+      "source": {
+        "kind": "adapted_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 802,
+        "originalSeconds": 953.566,
+        "originalText": "童年阴影关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "same_stage_authored_reaction",
+        "stage": 7,
+        "authored": true,
+        "parentText": "童年阴影关",
+        "parentLine": 802
+      },
+      "id": 235
+    },
+    {
+      "frame": 71857,
+      "text": "压轴关来了!!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 792,
+        "originalSeconds": 937.503,
+        "originalText": "压轴关来了！！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 236
+    },
+    {
+      "frame": 72039,
+      "text": "最难关到了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 793,
+        "originalSeconds": 939.958,
+        "originalText": "最难关到了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 237
+    },
+    {
+      "frame": 72311,
+      "text": "童年阴影关",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 802,
+        "originalSeconds": 953.566,
+        "originalText": "童年阴影关",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 238
+    },
+    {
+      "frame": 72556,
+      "text": "抱脸虫",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 809,
+        "originalSeconds": 963.69,
+        "originalText": "抱脸虫",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 239
+    },
+    {
+      "frame": 72739,
+      "text": "这是炸虾吗?",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 810,
+        "originalSeconds": 966.228,
+        "originalText": "这是炸虾吗？",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 240
+    },
+    {
+      "frame": 72956,
+      "text": "这么多小龙虾",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 814,
+        "originalSeconds": 972.932,
+        "originalText": "这么多小龙虾",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 0
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 241
+    },
+    {
+      "frame": 73188,
+      "text": "有点想学它 又有点不服它",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 7,
+        "frame": 73188,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-21",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 242
+    },
+    {
+      "frame": 73338,
+      "text": "这两种感觉可以一起有",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 7,
+        "frame": 73188,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-21",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 243
+    },
+    {
+      "frame": 73464,
+      "text": "童年阴影",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 815,
+        "originalSeconds": 974.863,
+        "originalText": "童年阴影",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 330
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 244
+    },
+    {
+      "frame": 73671,
+      "text": "我就觉得异形怎样看起来有点眼熟",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 816,
+        "originalSeconds": 976.537,
+        "originalText": "我就觉得异形怎样看起来有点眼熟",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 360
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 245
+    },
+    {
+      "frame": 73828,
+      "text": "感觉进了异形老巢",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 817,
+        "originalSeconds": 979.502,
+        "originalText": "感觉进了异形老巢",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 330
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 246
+    },
+    {
+      "frame": 73961,
+      "text": "是抱脸虫吗?",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 818,
+        "originalSeconds": 979.581,
+        "originalText": "是抱脸虫吗？",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 300
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 247
+    },
+    {
+      "frame": 74444,
+      "text": "我看的好像虾",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 819,
+        "originalSeconds": 982.01,
+        "originalText": "我看的好像虾",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 600
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 248
+    },
+    {
+      "frame": 74549,
+      "text": "等会真通了 我还怎么吐槽",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 7,
+        "frame": 74549,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-22",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 249
+    },
+    {
+      "frame": 74699,
+      "text": "照样吐槽 喜欢看不等于必须服气",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 7,
+        "frame": 74549,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-22",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 250
+    },
+    {
+      "frame": 74950,
+      "text": "大虾老巢",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 821,
+        "originalSeconds": 987.419,
+        "originalText": "大虾老巢",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 900
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 251
+    },
+    {
+      "frame": 75057,
+      "text": "香辣虾",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 822,
+        "originalSeconds": 991.602,
+        "originalText": "香辣虾",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 810
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 252
+    },
+    {
+      "frame": 75180,
+      "text": "有s弹简单",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 484,
+        "originalSeconds": 515.531,
+        "originalText": "有s弹简单",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_weapon_snapshot",
+        "stage": 7,
+        "schedulingDelayFrames": 780
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 253
+    },
+    {
+      "frame": 75430,
+      "text": "小时候一直不明白 异行巢穴上面为什么会有人类守着",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 828,
+        "originalSeconds": 1014.086,
+        "originalText": "小时候一直不明白，异行巢穴上面为什么会有人类守着",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 840
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 254
+    },
+    {
+      "frame": 75910,
+      "text": "我希望它替我干活 不是替我找焦虑",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 7,
+        "frame": 75910,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": false,
+      "replyGroup": "ai-23",
+      "lane": 0,
+      "durationFrames": 480,
+      "id": 255
+    },
+    {
+      "frame": 75937,
+      "text": "小时候打这关 后来晚上不敢一个人睡觉了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 832,
+        "originalSeconds": 1027.542,
+        "originalText": "小时候打这关，后来晚上不敢一个人睡觉了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 750
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 256
+    },
+    {
+      "frame": 76060,
+      "text": "至少今晚 手柄还可以自己拿起来",
+      "source": {
+        "kind": "authored_ai_commentary",
+        "stage": 7,
+        "frame": 75910,
+        "notViewerQuote": true
+      },
+      "category": "ai",
+      "accent": true,
+      "replyGroup": "ai-23",
+      "lane": 1,
+      "durationFrames": 480,
+      "id": 257
+    },
+    {
+      "frame": 76394,
+      "text": "安静的快看完了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 845,
+        "originalSeconds": 1051.314,
+        "originalText": "安静的快看完了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 690
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 258
+    },
+    {
+      "frame": 76423,
+      "text": "这小兵太阴了",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 846,
+        "originalSeconds": 1053.294,
+        "originalText": "这小兵太阴了",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 540
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 259
+    },
+    {
+      "frame": 76560,
+      "text": "这就是用S枪的好处",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 861,
+        "originalSeconds": 1073.505,
+        "originalText": "这就是用S枪的好处",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_weapon_snapshot",
+        "stage": 7,
+        "schedulingDelayFrames": 480
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 260
+    },
+    {
+      "frame": 76876,
+      "text": "好怂",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 869,
+        "originalSeconds": 1085.752,
+        "originalText": "好怂",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 570
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 261
+    },
+    {
+      "frame": 76903,
+      "text": "好怂的打发",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 871,
+        "originalSeconds": 1091.307,
+        "originalText": "好怂的打发",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 390
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 262
+    },
+    {
+      "frame": 77041,
+      "text": "地下工作者!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 872,
+        "originalSeconds": 1095.582,
+        "originalText": "地下工作者！",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 330
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 263
+    },
+    {
+      "frame": 77357,
+      "text": "是个狠人",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 873,
+        "originalSeconds": 1095.969,
+        "originalText": "是个狠人",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 480
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 264
+    },
+    {
+      "frame": 77390,
+      "text": "大佬",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 880,
+        "originalSeconds": 1113.418,
+        "originalText": "大佬",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "estimated_stage_portable_reaction",
+        "stage": 7,
+        "schedulingDelayFrames": 210
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 265
+    },
+    {
+      "frame": 77547,
+      "text": "完事",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 881,
+        "originalSeconds": 1116.647,
+        "originalText": "完事",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 60
+      },
+      "durationFrames": 360,
+      "lane": 1,
+      "id": 266
+    },
+    {
+      "frame": 77853,
+      "text": "完结撒花",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 882,
+        "originalSeconds": 1118.977,
+        "originalText": "完结撒花",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 330
+      },
+      "durationFrames": 360,
+      "lane": 0,
+      "id": 267
+    },
+    {
+      "frame": 77884,
+      "text": "非常精彩",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 883,
+        "originalSeconds": 1119.024,
+        "originalText": "非常精彩",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 360
+      },
+      "durationFrames": 360,
+      "lane": 2,
+      "id": 268
+    },
+    {
+      "frame": 77917,
+      "text": "6666",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 885,
+        "originalSeconds": 1121.175,
+        "originalText": "6666",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 360
+      },
+      "durationFrames": 480,
+      "lane": 1,
+      "id": 269
+    },
+    {
+      "frame": 78218,
+      "text": "nice",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 886,
+        "originalSeconds": 1121.259,
+        "originalText": "nice",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 660
+      },
+      "durationFrames": 360,
+      "lane": 0,
+      "id": 270
+    },
+    {
+      "frame": 78249,
+      "text": "ohhhhhhhhhh",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 893,
+        "originalSeconds": 1125.243,
+        "originalText": "ohhhhhhhhhh",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 630
+      },
+      "durationFrames": 360,
+      "lane": 2,
+      "id": 271
+    },
+    {
+      "frame": 78411,
+      "text": "呼呼呼",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 894,
+        "originalSeconds": 1125.96,
+        "originalText": "呼呼呼",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 780
+      },
+      "durationFrames": 360,
+      "lane": 1,
+      "id": 272
+    },
+    {
+      "frame": 78600,
+      "text": "NB!",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 904,
+        "originalSeconds": 1134.342,
+        "originalText": "NB!",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 840
+      },
+      "durationFrames": 480,
+      "lane": 0,
+      "id": 273
+    },
+    {
+      "frame": 78613,
+      "text": "gg",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 907,
+        "originalSeconds": 1137.132,
+        "originalText": "gg",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 810
+      },
+      "durationFrames": 480,
+      "lane": 2,
+      "id": 274
+    },
+    {
+      "frame": 78775,
+      "text": "通过音乐最好听",
+      "accent": false,
+      "category": "bilibili",
+      "source": {
+        "kind": "imported_bilibili",
+        "bvid": "BV12t411n7wg",
+        "line": 926,
+        "originalSeconds": 1151.585,
+        "originalText": "通过音乐最好听",
+        "sourceSha256": "6be465153f9e8f6ef7e9f134d97886ec6ca7c6f4b9046fbc4b93397da403a6a9",
+        "alignment": "verified_clear_then_ending",
+        "stage": 8,
+        "schedulingDelayFrames": 750
+      },
+      "durationFrames": 360,
+      "lane": 1,
+      "id": 275
+    }
+  ]
+}

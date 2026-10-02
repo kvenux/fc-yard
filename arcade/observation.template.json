@@ -1,0 +1,30 @@
+{
+  "driver": "kovsh",
+  "verified": false,
+  "evidence": [],
+  "core_sha256": null,
+  "rom_sha256": null,
+  "enemy_slots": 0,
+  "items": {
+    "enabled": false,
+    "verified": false,
+    "evidence": [],
+    "controls": {"open": [], "confirm": [], "use": [], "cancel": []},
+    "navigation": [],
+    "catalog": [],
+    "pulse_gap": 4,
+    "timeout_frames": 90,
+    "effect_window": 90,
+    "cooldown_frames": 120
+  },
+  "fields": {
+    "hp": {"offset": null, "size": 2, "endian": "little"},
+    "lives": {"offset": null, "size": 1},
+    "score": {"offset": null, "size": 4, "endian": "little"},
+    "progress": {"offset": null, "size": 2, "endian": "little"},
+    "player_x": {"offset": null, "size": 2, "endian": "little"},
+    "player_y": {"offset": null, "size": 2, "endian": "little"},
+    "victory": {"offset": null, "size": 1, "equals": null},
+    "game_over": {"offset": null, "size": 1, "equals": null}
+  }
+}

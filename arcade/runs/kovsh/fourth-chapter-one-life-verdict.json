@@ -1,0 +1,25 @@
+{
+  "scope": "fourth_chapter_exit",
+  "full_game_clear_verified": false,
+  "baseline": {
+    "cold_frames": 118349,
+    "coins": 1,
+    "deaths": [],
+    "hp": 27,
+    "native_checkpoint_equal": true,
+    "independent_whole_prefix_replay_equal": true
+  },
+  "best": {
+    "cold_frames": 115445,
+    "coins": 1,
+    "deaths": [],
+    "hp": 55,
+    "native_checkpoint_equal": true,
+    "cold_ram_equal": true,
+    "independent_boss_replay_equal": true,
+    "whole_extended_replay_status": "pending until ongoing next-chapter run finishes"
+  },
+  "frames_saved": 2904,
+  "hp_improvement": 28,
+  "verified": true
+}

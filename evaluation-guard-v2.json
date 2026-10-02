@@ -1,0 +1,326 @@
+{
+  "environment": "single player browser reimplementation; privileged state; seeded random; max 36000 frames per run",
+  "errors": [],
+  "runs": [
+    {
+      "seed": 1,
+      "frames": 2563,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 100,
+      "lives": 1,
+      "eagle": false,
+      "remaining": 19,
+      "player": {
+        "x": 112,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 1
+    },
+    {
+      "seed": 2,
+      "frames": 5907,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 400,
+      "lives": 0,
+      "eagle": false,
+      "remaining": 16,
+      "player": {
+        "x": 47,
+        "y": 184
+      },
+      "reason": "拦截射向基地的子弹",
+      "kills": 4
+    },
+    {
+      "seed": 3,
+      "frames": 6171,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 600,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 14,
+      "player": {
+        "x": 136,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 6
+    },
+    {
+      "seed": 4,
+      "frames": 8235,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 700,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 13,
+      "player": {
+        "x": 81,
+        "y": 184
+      },
+      "reason": "沿防线对齐敌人",
+      "kills": 7
+    },
+    {
+      "seed": 5,
+      "frames": 4038,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 300,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 17,
+      "player": {
+        "x": 144,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 3
+    },
+    {
+      "seed": 6,
+      "frames": 8608,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 1300,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 7,
+      "player": {
+        "x": 63,
+        "y": 184
+      },
+      "reason": "驻守，向上射击",
+      "kills": 13
+    },
+    {
+      "seed": 7,
+      "frames": 2876,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 100,
+      "lives": 1,
+      "eagle": false,
+      "remaining": 19,
+      "player": {
+        "x": 88,
+        "y": 216
+      },
+      "reason": "驻守，向上射击",
+      "kills": 1
+    },
+    {
+      "seed": 8,
+      "frames": 4954,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 200,
+      "lives": 0,
+      "eagle": false,
+      "remaining": 18,
+      "player": {
+        "x": 177,
+        "y": 184
+      },
+      "reason": "沿防线对齐敌人",
+      "kills": 2
+    },
+    {
+      "seed": 9,
+      "frames": 8707,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 1000,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 10,
+      "player": {
+        "x": 80,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 10
+    },
+    {
+      "seed": 10,
+      "frames": 9547,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 900,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 11,
+      "player": {
+        "x": 56,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 9
+    },
+    {
+      "seed": 11,
+      "frames": 2878,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 200,
+      "lives": 2,
+      "eagle": false,
+      "remaining": 18,
+      "player": {
+        "x": 142,
+        "y": 184
+      },
+      "reason": "沿防线对齐敌人",
+      "kills": 2
+    },
+    {
+      "seed": 12,
+      "frames": 5095,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 600,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 14,
+      "player": {
+        "x": 192,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 6
+    },
+    {
+      "seed": 13,
+      "frames": 8297,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 1500,
+      "lives": 0,
+      "eagle": false,
+      "remaining": 5,
+      "player": {
+        "x": 119,
+        "y": 184
+      },
+      "reason": "拦截射向基地的子弹",
+      "kills": 15
+    },
+    {
+      "seed": 14,
+      "frames": 6878,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 900,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 11,
+      "player": {
+        "x": 176,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 9
+    },
+    {
+      "seed": 15,
+      "frames": 3358,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 300,
+      "lives": 1,
+      "eagle": false,
+      "remaining": 17,
+      "player": {
+        "x": 119,
+        "y": 184
+      },
+      "reason": "沿防线对齐敌人",
+      "kills": 3
+    },
+    {
+      "seed": 16,
+      "frames": 4840,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 600,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 14,
+      "player": {
+        "x": 112,
+        "y": 183
+      },
+      "reason": "沿防线对齐敌人",
+      "kills": 6
+    },
+    {
+      "seed": 17,
+      "frames": 4616,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 300,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 17,
+      "player": {
+        "x": 49,
+        "y": 184
+      },
+      "reason": "驻守，向上射击",
+      "kills": 3
+    },
+    {
+      "seed": 18,
+      "frames": 6900,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 500,
+      "lives": 0,
+      "eagle": true,
+      "remaining": 15,
+      "player": {
+        "x": 56,
+        "y": 183
+      },
+      "reason": "沿防线对齐敌人",
+      "kills": 5
+    },
+    {
+      "seed": 19,
+      "frames": 2681,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 100,
+      "lives": 2,
+      "eagle": false,
+      "remaining": 19,
+      "player": {
+        "x": 112,
+        "y": 183
+      },
+      "reason": "沿防线对齐敌人",
+      "kills": 1
+    },
+    {
+      "seed": 20,
+      "frames": 2803,
+      "phase": "gameover_tally",
+      "stage": 1,
+      "score": 200,
+      "lives": 2,
+      "eagle": false,
+      "remaining": 18,
+      "player": {
+        "x": 128,
+        "y": 183
+      },
+      "reason": "驻守，向上射击",
+      "kills": 2
+    }
+  ]
+}

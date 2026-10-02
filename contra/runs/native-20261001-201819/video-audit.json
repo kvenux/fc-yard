@@ -1,0 +1,20 @@
+{
+  "run": "native-20261001-201819",
+  "video": "native-20261001-201819/full-clear-audio.mp4",
+  "strategyFrames": 77417,
+  "endingIdleFrames": 1800,
+  "videoFPS": 30,
+  "videoFrames": 39608,
+  "normalSpeed": true,
+  "audio": true,
+  "audioSampleRate": 48000,
+  "audioFrames": 63265649,
+  "audioTempo": 0.9983091957432841,
+  "replayEqual": true,
+  "actual": {
+    "state": "fb0ba37e2e5be8bc76433994c407ac9dbd941ec93fa0fceebe260b31e293b56f",
+    "ram": "d08f14000db397a1f37ae1d8ee68e3590dac44e5f6bdcc7ccba8b6e4332a9502",
+    "video": "704290ef51c27b0db6523cb3e3971dedd8705acba445b88d12f619affa044a2a"
+  },
+  "videoSha256": "dd8eceab79edb3fb038defeac327ee898b48a0e13d7cb156ad28e316dae74965"
+}

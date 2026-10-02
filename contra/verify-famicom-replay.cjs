@@ -1,0 +1,38 @@
+const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('fs'),path=require('path');
+(async()=>{const browser=await chromium.launch(require('../tools/browser.cjs'));try{
+ const page=await browser.newPage({viewport:{width:1200,height:1040}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:8787/contra/replay.html');await page.waitForFunction(()=>document.querySelector('video').readyState>=2&&!document.getElementById('chapter').disabled);await page.evaluate(()=>document.querySelector('video').pause());
+ assert.equal(await page.locator('#chapter option').count(),8);
+ for(const speed of ['1','1.5','2','3','4']){await page.locator('#speed').selectOption(speed);assert.equal(await page.locator('video').evaluate(v=>v.playbackRate),Number(speed));}await page.locator('#speed').selectOption('1');
+ await page.locator('#sound').check();assert.equal(await page.locator('video').evaluate(v=>v.muted),false);await page.locator('#sound').uncheck();assert.equal(await page.locator('video').evaluate(v=>v.muted),true);
+ await page.locator('#hardware-start').click();await page.waitForFunction(()=>!document.querySelector('video').paused);await page.locator('#hardware-start').click();await page.waitForFunction(()=>document.querySelector('video').paused);
+ await page.locator('#hardware-select').click();await page.waitForFunction(()=>document.getElementById('stage').textContent==='2 / 8');
+ await page.evaluate(async()=>{const v=document.querySelector('video');await new Promise(resolve=>{v.addEventListener('seeked',resolve,{once:true});v.currentTime=33.4;});await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));});
+ const meta=JSON.parse(fs.readFileSync(path.join(__dirname,'runs/latest-video.json'))),r=JSON.parse(fs.readFileSync(path.join(__dirname,'runs',meta.run,'result.json'))),time=await page.locator('video').evaluate(v=>v.currentTime),frame=Math.floor(time*30)*2+2;let n=0,mask=0;for(const [m,count] of r.actions){if(n+count>frame){mask=m;break;}n+=count;}
+ assert.equal(await page.locator('#button-a').evaluate(e=>e.dataset.actualPressed==='true'),!!(mask&1));assert.equal(await page.locator('#button-b').evaluate(e=>e.dataset.actualPressed==='true'),!!(mask&2));for(const bit of [16,32,64,128])assert.equal(await page.locator(`[data-bit="${bit}"]`).evaluate(e=>e.dataset.actualPressed==='true'),!!(mask&bit));
+ const inputFrames=r.actions.flatMap(([m,count])=>Array(count).fill(m)),window=inputFrames.slice(Math.max(0,frame-59),frame+1);
+ for(const [bit,selector] of [[1,'#fire-prob'],[2,'#button-b span'],[16,'[data-bit="16"] span'],[32,'[data-bit="32"] span'],[64,'[data-bit="64"] span'],[128,'[data-bit="128"] span']]){const expected=Math.round(window.filter(m=>m&bit).length/window.length*100)+'%';assert.equal(await page.locator(selector).textContent(),expected);assert.equal(await page.locator(selector).evaluate(e=>getComputedStyle(e).opacity),'1');}
+ await page.screenshot({path:path.join(__dirname,'runs/famicom-replay-desktop.png'),fullPage:true});await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await page.screenshot({path:path.join(__dirname,'runs/famicom-replay-mobile.png'),fullPage:true});
+ await page.locator('#capture').click();assert(await page.locator('aside').isHidden());await page.keyboard.press('Escape');assert(await page.locator('aside').isVisible());
+ const shortJump=inputFrames.findIndex((m,i)=>i>900&&i%2===1&&(m&1)&&!(inputFrames[i-1]&1)&&!(inputFrames[i+1]&1));assert(shortJump>0);
+ await page.evaluate(async frame=>{const v=document.querySelector('video');await new Promise(resolve=>{v.addEventListener('seeked',resolve,{once:true});v.currentTime=(frame-8)/60;});await v.play();},shortJump);
+ await page.waitForFunction(frame=>{const v=document.querySelector('video'),a=document.getElementById('button-a');return Math.floor(v.currentTime*30)*2+2>frame&&a.classList.contains('active')&&a.dataset.actualPressed==='false';},shortJump,{timeout:3000});
+ await page.evaluate(()=>document.querySelector('video').pause());await page.waitForTimeout(100);assert(await page.locator('#button-a').evaluate(e=>e.classList.contains('active')));await page.screenshot({path:path.join(__dirname,'runs/famicom-short-jump-feedback.png'),fullPage:true});
+ await page.waitForTimeout(400);assert(!(await page.locator('#button-a').evaluate(e=>e.classList.contains('active'))));
+ const buttonDepth=await page.evaluate(async()=>{const originals=[document.getElementById('button-a'),document.getElementById('button-b'),document.querySelector('.dpad')],clones=originals.map(e=>{const c=e.cloneNode(true);c.removeAttribute('id');c.dataset.depthPreview='true';if(e.id==='button-a'){c.style.position='absolute';c.style.inset='0';}e.parentElement.append(c);return c;}),[a,b,d]=clones;a.classList.remove('active');b.classList.remove('active');await new Promise(resolve=>setTimeout(resolve,220));const read=e=>({transform:getComputedStyle(e,'::before').transform,shadow:getComputedStyle(e,'::before').boxShadow,filter:getComputedStyle(e,'::before').filter});const raised=[read(a),read(b)];a.classList.add('active');b.classList.add('active');d.dataset.direction='1';await new Promise(resolve=>setTimeout(resolve,220));const pressed=[read(a),read(b)];return{raised,pressed,dpadTransform:getComputedStyle(d).transform,dpadShade:getComputedStyle(d,'::after').backgroundImage};});
+ for(let i=0;i<2;i++){assert.notEqual(buttonDepth.raised[i].transform,buttonDepth.pressed[i].transform);assert.notEqual(buttonDepth.raised[i].shadow,buttonDepth.pressed[i].shadow);assert.notEqual(buttonDepth.pressed[i].shadow,'none');}assert.notEqual(buttonDepth.dpadShade,'none');
+ await page.setViewportSize({width:1200,height:1040});await page.screenshot({path:path.join(__dirname,'runs/controller-depth-pressed.png'),fullPage:true});
+ await page.evaluate(()=>document.querySelectorAll('[data-depth-preview]').forEach(e=>e.remove()));
+ let aggressiveFeedback=false;
+ if(r.combatStyle==='aggressive'){
+  const attack=r.samples.find(s=>s.decision?.combatValue>0&&s.decision.commitFrames>0);assert(attack);
+  const attackFrame=attack.frame-Math.floor(attack.decision.commitFrames/2);
+  await page.evaluate(async frame=>{const v=document.querySelector('video');await new Promise(resolve=>{v.addEventListener('seeked',resolve,{once:true});v.currentTime=(frame-2)/60;});await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));},attackFrame);
+  assert(await page.locator('.danmaku-message').count()>0);
+  assert.equal(await page.locator('.danmaku-heading').count(),0);assert.equal(await page.locator('#danmaku-quiet').count(),0);
+  await page.setViewportSize({width:1200,height:1040});await page.screenshot({path:path.join(__dirname,'runs/aggressive-replay-browser.png'),fullPage:true});
+  const combat=JSON.parse(fs.readFileSync(path.join(__dirname,'runs',meta.run,'combat-audit.json'))),hud=JSON.parse(fs.readFileSync(path.join(__dirname,'runs',meta.run,'replay-telemetry.json')));assert.equal(hud.rows.at(-1).gunKills,combat.gunKills);aggressiveFeedback=true;
+ }
+ assert.deepEqual(errors,[]);fs.writeFileSync(path.join(__dirname,'runs/famicom-replay-verification.json'),JSON.stringify({passed:true,run:meta.run,chapters:8,controllerMask:mask,frame,shortJumpCaptured:true,releaseHoldMs:350,buttonDepth,startSelect:true,mobileNoOverflow:true,aggressiveFeedback,errors},null,2));console.log('Famicom replay, short jump capture, delayed feedback, button depth and mobile verified.');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});
+
+

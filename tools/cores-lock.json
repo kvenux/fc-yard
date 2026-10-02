@@ -1,0 +1,29 @@
+{
+  "release": "v1.0.0",
+  "repository": "kvenux/fc-yard",
+  "platform": "windows-x86_64",
+  "asset": "cores-windows-x86_64.zip",
+  "files": {
+    "arcade/cores/fbneo_libretro.dll": {
+      "sha256": "d5e64c6a6affe04b802a8448340c2acbd28a31e45d4c1bfc99b1699037b11b03",
+      "bytes": 62497127
+    },
+    "arcade/cores/fbneo_pgm_statefix_libretro.dll": {
+      "sha256": "1de9f44035275157d38fcdb523d449102c78814cfc4aea5086be2a09241cae62",
+      "bytes": 10659554
+    },
+    "arcade/cores/libwinpthread-1.dll": {
+      "sha256": "55774e39fda420143ea05738f4fc22a3142e35d3ca65ed1c81cea26d1bb670af",
+      "bytes": 57344
+    },
+    "contra/cores/fceumm_libretro.dll": {
+      "sha256": "b16b5513cb1ed2a2cb144b24c2122d46da758a43a0fba3dfd8fb53a538101e1b",
+      "bytes": 4162048
+    }
+  },
+  "sources": {
+    "FBNeo": "a4012b161e48b33b94940f07987323574c237448",
+    "FCEUmm": "7a542dab1e87679921962a9f056186eca425c0c2"
+  },
+  "asset_sha256": "c1b386eb73b6bbbed729a43bc351a9390f990014cc34f5f5d9ef4eaf491f3858"
+}

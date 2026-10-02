@@ -1,0 +1,13 @@
+{
+  "scope": "full clear; 123 deaths, 61 continues; not one-life",
+  "frames": 443798,
+  "deaths": 123,
+  "expected": {
+    "state": "52baf9adc1095748828360dee301b7b5cb03613667f06ce2e8f1e1373d0b9371",
+    "ram": "15bd6b1e9702367296203535fc0baf430e252945d3f0c488ff804e90ee7fcbca",
+    "video": null
+  },
+  "rom_sha256": "acdc632a0b67fead83ae1ca96d964b4344d2590b56c31e3b341da3381f3f58b3",
+  "core_sha256": "d5e64c6a6affe04b802a8448340c2acbd28a31e45d4c1bfc99b1699037b11b03",
+  "inputs_sha256": "adf2bc11ce91e2c2e226db7ef20fdbd48b822e4628f9fd716de0f88914ecebf6"
+}

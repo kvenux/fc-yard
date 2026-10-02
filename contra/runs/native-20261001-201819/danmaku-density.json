@@ -1,0 +1,21 @@
+{
+  "entries": 276,
+  "uniqueTexts": 276,
+  "categories": {
+    "bilibili": 162,
+    "ai": 42,
+    "adapted": 72
+  },
+  "perStage": {
+    "1": 23,
+    "2": 18,
+    "3": 54,
+    "4": 60,
+    "5": 30,
+    "6": 29,
+    "7": 21,
+    "8": 41
+  },
+  "maxGapSeconds": 9,
+  "meanGapSeconds": 4.7176969696969655
+}

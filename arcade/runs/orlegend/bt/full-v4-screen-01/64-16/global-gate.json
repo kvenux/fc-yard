@@ -1,0 +1,13 @@
+{
+  "baseline": "arcade\\runs\\orlegend\\life-saving-cold-01",
+  "candidate": "arcade\\runs\\orlegend\\bt\\full-v4-screen-01\\64-16",
+  "baseline_deaths": 150,
+  "candidate_deaths": 123,
+  "accepted": true,
+  "scope": "full_game",
+  "reason": "lower full-game deaths with independent replay and ending review",
+  "continues": 61,
+  "lives_used_including_survivor": 124,
+  "visual_ending_verified": true,
+  "state_and_ram_replay_equal": true
+}

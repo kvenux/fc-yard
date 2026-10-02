@@ -1,0 +1,27 @@
+{
+  "name": "fc-yard",
+  "version": "1.0.0",
+  "description": "Four-game AI policy laboratory with deterministic replay audits and browser live studios",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tools/smoke.cjs",
+    "start": "node server.cjs",
+    "evaluate": "node evaluate.cjs",
+    "search": "node tournament.cjs",
+    "refine": "node refine.cjs",
+    "validate": "node validate.cjs",
+    "observe": "node observe.cjs",
+    "verify": "node verify.cjs",
+    "doctor": "python tools/setup.py --check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "jsnes": "^2.1.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}
