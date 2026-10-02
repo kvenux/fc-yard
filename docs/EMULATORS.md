@@ -11,10 +11,10 @@
 
 ## 固定核心
 
-`python tools/setup.py` 安装 Release `v1.0.0` 的 Windows x64 核心，下载包和每个 DLL 都做 SHA256 校验。`tools/cores-lock.json` 保存二进制版本；`games.json` 保存各游戏核心/ROM/输入/证明对应关系。
+`python tools/setup.py` 安装 Release `v1.0.1` 的 Windows x64 核心，下载包和每个 DLL 都做 SHA256 校验。`tools/cores-lock.json` 保存二进制版本；`games.json` 保存各游戏核心/ROM/输入/证明对应关系。
 
 - FCEUmm `7a542dab1e87679921962a9f056186eca425c0c2`，核心自报 `(SVN) 7a542da`。
-- FBNeo `a4012b161e48b33b94940f07987323574c237448`，核心自报 `v1.0.0.03 260928 GITa4012b1`。
+- FBNeo `a4012b161e48b33b94940f07987323574c237448`，核心自报 `v1.0.1.03 260928 GITa4012b1`。
 - PGM 修复只在 `pgmScan` 加入 `SCAN_VAR(nCyclesDone)`，补全 CPU 跨帧余量的序列化；没有改 `pgmFrame`、游戏 ROM、生命或伤害。补丁在 `arcade/reference/pgm-statefix.patch`。
 
 Release 同时提供原始源码、完整修复源码、winpthreads 源码及完整许可证。修复版原始构建：MinGW x64/MSYS，源码目录执行 `make platform=win SUBSET=pgm -j6 SHELL=sh.exe`。源码重编译不承诺二进制逐字节相同；严格成绩复验使用锁定二进制。

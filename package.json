@@ -1,6 +1,6 @@
 {
   "name": "fc-yard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Four-game AI policy laboratory with deterministic replay audits and browser live studios",
   "main": "index.js",
   "scripts": {

@@ -16,6 +16,8 @@ async function main(){
   await page.goto(base+'/live.html?paused=1');await page.waitForFunction(()=>window.liveApp);
   const engine=page.frames().find(f=>f.url().includes('live-engine.html'));assert.ok(engine);
   await engine.waitForFunction(()=>window.liveEngine);
+  await page.goto(base+'/index.html');await page.waitForFunction(()=>window.jsnes);
+  await page.goto(base+'/contra/live.html');await page.waitForFunction(()=>window.Contra&&window.jsnes);
   await page.goto(base+'/contra/replay.html');await page.waitForFunction(()=>document.getElementById('chapter').options.length===8);
   assert.match(await page.locator('#facts').textContent(),/死亡 0 次/);
   for(const width of [390,1080]){
