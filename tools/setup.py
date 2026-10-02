@@ -41,7 +41,7 @@ def main():
         destination = ROOT / 'contra/runs' / meta['video']
         if destination.exists() and digest(destination) == meta['videoSha256']:
             print('Contra video already verified'); return
-        download(base + 'contra-full-clear-audio.mp4', destination, meta['videoSha256'])
+        download(base + 'full-clear-audio.mp4', destination, meta['videoSha256'])
         print('Contra video installed and verified'); return
     if args.check:
         registry = json.loads((ROOT / 'games.json').read_text())
