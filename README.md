@@ -51,7 +51,7 @@ python tools/setup.py
 | `arcade/roms/orlegend.zip`，含 BIOS 的 non-merged 集合 | `acdc632a0b67fead83ae1ca96d964b4344d2590b56c31e3b341da3381f3f58b3` |
 | `arcade/roms/kovsh.zip` | `cb373b2fbdbb56d1a93338b246cb40f718b20e43fea43ae2668d464c97e73dba` |
 
-风云再起需要同目录 `arcade/roms/pgm.zip` BIOS。ROM、BIOS、存档与 RAM dump 不发布。
+两个已认证街机 ZIP 都是含 PGM BIOS 的 non-merged 集合，不需要额外 `pgm.zip`。使用其他拆分集合时需同目录 BIOS，但不属于这里的固定 SHA256 认证。芯片大小/CRC 见 `data/rom-manifest.json`。ROM、BIOS、存档与 RAM dump 不发布。
 
 ```sh
 python tools/setup.py --check

@@ -1,0 +1,194 @@
+{
+  "kovsh": {
+    "sha256": "cb373b2fbdbb56d1a93338b246cb40f718b20e43fea43ae2668d464c97e73dba",
+    "bios_included": true,
+    "chips": [
+      {
+        "name": "bios.u42",
+        "bytes": 131072,
+        "crc32": "517cf7a2"
+      },
+      {
+        "name": "ddp3_bios.u37",
+        "bytes": 524288,
+        "crc32": "b3cc5c8f"
+      },
+      {
+        "name": "kovsh_v100_china.asic",
+        "bytes": 16384,
+        "crc32": "0f09a5c1"
+      },
+      {
+        "name": "pgm_a0600.u1",
+        "bytes": 8388608,
+        "crc32": "d8167834"
+      },
+      {
+        "name": "pgm_a0601.u3",
+        "bytes": 8388608,
+        "crc32": "ff7a4373"
+      },
+      {
+        "name": "pgm_a0602.u5",
+        "bytes": 8388608,
+        "crc32": "e7a32959"
+      },
+      {
+        "name": "pgm_a0604_v200.u9",
+        "bytes": 4194304,
+        "crc32": "26b59fd3"
+      },
+      {
+        "name": "pgm_a0613.u7",
+        "bytes": 4194304,
+        "crc32": "ec31abda"
+      },
+      {
+        "name": "pgm_b0600.u6",
+        "bytes": 8388608,
+        "crc32": "7d3cd059"
+      },
+      {
+        "name": "pgm_b0601.u8",
+        "bytes": 4194304,
+        "crc32": "a0bb1c2f"
+      },
+      {
+        "name": "pgm_b0602_v200.u10",
+        "bytes": 1048576,
+        "crc32": "9df77934"
+      },
+      {
+        "name": "pgm_m01s.rom",
+        "bytes": 2097152,
+        "crc32": "45ae7159"
+      },
+      {
+        "name": "pgm_m0600.u4",
+        "bytes": 4194304,
+        "crc32": "3ada4fd6"
+      },
+      {
+        "name": "pgm_p01s.u20",
+        "bytes": 131072,
+        "crc32": "e42b166e"
+      },
+      {
+        "name": "pgm_p02s.u20",
+        "bytes": 131072,
+        "crc32": "78c15fa2"
+      },
+      {
+        "name": "pgm_p0605_v104.u1",
+        "bytes": 4194304,
+        "crc32": "7c78e5f3"
+      },
+      {
+        "name": "pgm_t01s.rom",
+        "bytes": 2097152,
+        "crc32": "1a7123a0"
+      },
+      {
+        "name": "pgm_t0600.u11",
+        "bytes": 8388608,
+        "crc32": "4acc1ad6"
+      }
+    ]
+  },
+  "orlegend": {
+    "sha256": "acdc632a0b67fead83ae1ca96d964b4344d2590b56c31e3b341da3381f3f58b3",
+    "bios_included": true,
+    "chips": [
+      {
+        "name": "bios.u42",
+        "bytes": 131072,
+        "crc32": "517cf7a2"
+      },
+      {
+        "name": "ddp3_bios.u37",
+        "bytes": 524288,
+        "crc32": "b3cc5c8f"
+      },
+      {
+        "name": "pgm_a0100.u5",
+        "bytes": 4194304,
+        "crc32": "8b3bd88a"
+      },
+      {
+        "name": "pgm_a0101.u6",
+        "bytes": 4194304,
+        "crc32": "3b9e9644"
+      },
+      {
+        "name": "pgm_a0102.u7",
+        "bytes": 4194304,
+        "crc32": "069e2c38"
+      },
+      {
+        "name": "pgm_a0103.u8",
+        "bytes": 4194304,
+        "crc32": "4460a3fd"
+      },
+      {
+        "name": "pgm_a0104.u11",
+        "bytes": 4194304,
+        "crc32": "5f8abb56"
+      },
+      {
+        "name": "pgm_a0105.u12",
+        "bytes": 4194304,
+        "crc32": "a17a7147"
+      },
+      {
+        "name": "pgm_b0100.u9",
+        "bytes": 4194304,
+        "crc32": "69d2e48c"
+      },
+      {
+        "name": "pgm_b0101.u10",
+        "bytes": 4194304,
+        "crc32": "0d587bf3"
+      },
+      {
+        "name": "pgm_b0102.u15",
+        "bytes": 4194304,
+        "crc32": "43823c1e"
+      },
+      {
+        "name": "pgm_m0100.u1",
+        "bytes": 2097152,
+        "crc32": "e5c36c83"
+      },
+      {
+        "name": "pgm_m01s.rom",
+        "bytes": 2097152,
+        "crc32": "45ae7159"
+      },
+      {
+        "name": "pgm_p0103.u2",
+        "bytes": 2097152,
+        "crc32": "d5e93543"
+      },
+      {
+        "name": "pgm_p01s.u20",
+        "bytes": 131072,
+        "crc32": "e42b166e"
+      },
+      {
+        "name": "pgm_p02s.u20",
+        "bytes": 131072,
+        "crc32": "78c15fa2"
+      },
+      {
+        "name": "pgm_t0100.u8",
+        "bytes": 4194304,
+        "crc32": "61425e1e"
+      },
+      {
+        "name": "pgm_t01s.rom",
+        "bytes": 2097152,
+        "crc32": "1a7123a0"
+      }
+    ]
+  }
+}

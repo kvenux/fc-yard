@@ -25,7 +25,7 @@ macOS/Linux 可以运行所有静态直播页、魂斗罗视频、浏览器坦�
 
 `python tools/replay.py contra|orlegend|kovsh` 每次重新开机，只发送已记录普通按键，没有初始存档、内存写入或作弊。输出在 `outputs/`，输入校验、帧数、死亡数及状态/RAM 指纹必须匹配，否则退出码 1。魂斗罗另比对画面；街机录制时关闭绘制，网页播放开启绘制，所以网页终点比对状态/RAM，画面不用于伪造认证。
 
-ROM、BIOS、原生存档、RAM dump 不随仓库或 Release 发布。文件版本以 `data/*/proof.json` 为准。PGM BIOS 放在街机 ROM 同目录；西游已认证集合是含 BIOS 的 non-merged 版本。不同压缩重打包也会改变 SHA256，应先确认芯片清单再作新认证。
+ROM、BIOS、原生存档、RAM dump 不随仓库或 Release 发布。文件版本以 `data/*/proof.json` 为准。两套已认证街机集合均已包含 PGM BIOS；其他拆分集合的 BIOS 放在 ROM 同目录，但需重新认证。不同压缩重打包也会改变 SHA256，应先确认芯片清单再作新认证。
 
 ## 重新生成魂斗罗视频
 
